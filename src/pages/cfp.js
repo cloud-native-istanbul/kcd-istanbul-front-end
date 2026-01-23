@@ -8,8 +8,8 @@ const CFPPage = () => {
         <div className="hero-body">
           <div className="container has-text-centered">
             <h1 className="title is-1">Call for Speakers</h1>
-            <p className="subtitle is-3">Join Toronto's largest CNCF-supported Kubernetes event</p>
-            <p className="subtitle is-5">May 13, 2026 • The Quay, Toronto</p>
+            <p className="subtitle is-3">Join Istanbul's largest CNCF-supported Kubernetes event</p>
+            <p className="subtitle is-5">May 15, 2026 • Istanbul, Turkey</p>
           </div>
         </div>
       </section>
@@ -22,7 +22,7 @@ const CFPPage = () => {
                 <h2 className="title is-3 has-text-centered">We Want to Hear From You!</h2>
                 <div className="content">
                   <p className="is-size-5 has-text-centered">
-                    Kubernetes Community Days Toronto will gather over <strong>350 developers, platform engineers,
+                    Kubernetes Community Days Istanbul will gather over <strong>350 developers, platform engineers,
                     architects, leaders and IT professionals</strong> for a full day dedicated to cloud-native
                     technology and open source innovation.
                   </p>
@@ -95,7 +95,7 @@ const CFPPage = () => {
               </div>
 
               <div className="box mb-5 has-background-light">
-                <h3 className="title is-4 has-text-centered">Why Speak at KCD Toronto?</h3>
+                <h3 className="title is-4 has-text-centered">Why Speak at KCD Istanbul?</h3>
                 <div className="content">
                   <div className="columns">
                     <div className="column is-4 has-text-centered">
@@ -133,8 +133,8 @@ const CFPPage = () => {
                     </div>
                     <div className="column is-4">
                       <p className="title is-6">Event Date</p>
-                      <p className="subtitle is-5">May 13, 2026</p>
-                      <p className="has-text-grey">The Quay, Toronto</p>
+                      <p className="subtitle is-5">May 15, 2026</p>
+                      <p className="has-text-grey">Istanbul, Turkey</p>
                     </div>
                   </div>
                   <div className="notification is-success is-light has-text-centered mt-4">
@@ -148,10 +148,10 @@ const CFPPage = () => {
                 <h2 className="title is-2 has-text-centered mb-4">Ready to Share Your Story?</h2>
                 <div className="content has-text-centered">
                   <p className="is-size-5 mb-5">
-                    Join 25+ speakers in sharing practical, real-world cloud native experiences with Toronto's community.
+                    Join 25+ speakers in sharing practical, real-world cloud native experiences with Istanbul's community.
                   </p>
                   <a
-                    href="https://sessionize.com/kcd-toronto-2026"
+                    href="https://sessionize.com/kcd-istanbul-2026"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="button is-primary is-large"
@@ -168,7 +168,7 @@ const CFPPage = () => {
                 <h3 className="title is-5 has-text-centered">Need Help or Have Questions?</h3>
                 <p className="has-text-centered">
                   We're here to help! Reach out to our speaker team at{" "}
-                  <a href="mailto:toronto-org@kubernetescommunitydays.org"><strong>toronto-org@kubernetescommunitydays.org</strong></a>
+                  <a href="mailto:istanbul-organizers@kubernetescommunitydays.org"><strong>istanbul-organizers@kubernetescommunitydays.org</strong></a>
                 </p>
                 <p className="has-text-centered mt-3 has-text-grey">
                   <small>
@@ -187,4 +187,4 @@ const CFPPage = () => {
 
 export default CFPPage
 
-export const Head = () => <title>Call for Proposals - KCD Toronto 2026</title>
+export const Head = () => <title>Call for Proposals - KCD Istanbul 2026</title>

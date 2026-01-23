@@ -17,7 +17,7 @@ const CodeOfConductPage = () => {
         <div className="container">
           <div className="notification is-warning">
             <p className="is-size-5 has-text-weight-semibold">
-              KCD Toronto is dedicated to providing a harassment-free experience for everyone, and we do not
+              KCD Istanbul is dedicated to providing a harassment-free experience for everyone, and we do not
               tolerate harassment of participants in any form.
             </p>
           </div>
@@ -25,7 +25,7 @@ const CodeOfConductPage = () => {
           <div className="content is-medium mt-6">
             <h2 className="title is-2">Our Commitment</h2>
             <p>
-              KCD Toronto is committed to providing a friendly, safe, and welcoming environment for all,
+              KCD Istanbul is committed to providing a friendly, safe, and welcoming environment for all,
               regardless of gender, gender identity and expression, sexual orientation, disability, physical
               appearance, body size, race, age, religion, nationality, or other similar characteristics.
             </p>
@@ -59,7 +59,7 @@ const CodeOfConductPage = () => {
 
             <div className="box has-background-info-light mt-4">
               <p className="has-text-weight-semibold">
-                Email: <a href="mailto:toronto-org@kubernetescommunitydays.org">toronto-org@kubernetescommunitydays.org</a>
+                Email: <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
               </p>
             </div>
 
@@ -74,7 +74,7 @@ const CodeOfConductPage = () => {
 
           <div className="notification is-primary mt-6">
             <p className="has-text-centered has-text-weight-semibold">
-              Thank you for helping make KCD Toronto a welcoming, friendly event for everyone.
+              Thank you for helping make KCD Istanbul a welcoming, friendly event for everyone.
             </p>
           </div>
         </div>
@@ -85,4 +85,4 @@ const CodeOfConductPage = () => {
 
 export default CodeOfConductPage
 
-export const Head = () => <title>Code of Conduct - KCD Toronto 2026</title>
+export const Head = () => <title>Code of Conduct - KCD Istanbul 2026</title>

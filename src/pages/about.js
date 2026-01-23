@@ -7,7 +7,7 @@ const AboutPage = () => {
       <section className="hero is-primary">
         <div className="hero-body">
           <div className="container">
-            <h1 className="title is-1">About KCD Toronto</h1>
+            <h1 className="title is-1">About KCD Istanbul</h1>
             <p className="subtitle is-3">Learn about Kubernetes Community Days</p>
           </div>
         </div>
@@ -27,11 +27,11 @@ const AboutPage = () => {
               They feature a mix of keynotes, technical talks, lightning talks, and workshops from local and international speakers.
             </p>
 
-            <h2 className="title is-2 mt-6">KCD Toronto 2026</h2>
+            <h2 className="title is-2 mt-6">KCD Istanbul 2026</h2>
             <p>
-              KCD Toronto 2026 will be Toronto's premier cloud native community event, bringing together developers, DevOps engineers,
-              platform engineers, and technology enthusiasts from across Canada and beyond. Our mission is to foster learning,
-              collaboration, and innovation within the Canadian cloud native community.
+              KCD Istanbul 2026 will be Istanbul's premier cloud native community event, bringing together developers, DevOps engineers,
+              platform engineers, and technology enthusiasts from across Turkey and beyond. Our mission is to foster learning,
+              collaboration, and innovation within the Turkish cloud native community.
             </p>
 
             <h2 className="title is-2 mt-6">Event Highlights</h2>
@@ -82,4 +82,4 @@ const AboutPage = () => {
 
 export default AboutPage
 
-export const Head = () => <title>About - KCD Toronto 2026</title>
+export const Head = () => <title>About - KCD Istanbul 2026</title>

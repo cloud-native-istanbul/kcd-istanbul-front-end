@@ -16,8 +16,8 @@ const Layout = ({ children }) => {
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
               <img
-                src="/toronto-cncf-kcd-wide.png"
-                alt="KCD Toronto 2026"
+                src="/istanbul-cncf-kcd-wide.png"
+                alt="KCD Istanbul 2026"
                 style={{ height: '40px', width: 'auto' }}
               />
             </Link>
@@ -78,9 +78,9 @@ const Layout = ({ children }) => {
         <div className="container">
           <div className="columns">
             <div className="column is-4">
-              <h4 className="title is-5 has-text-white">KCD Toronto 2026</h4>
+              <h4 className="title is-5 has-text-white">KCD Istanbul 2026</h4>
               <p>
-                Kubernetes Community Days Toronto is a community-organized event
+                Kubernetes Community Days Istanbul is a community-organized event
                 bringing together the cloud native community.
               </p>
             </div>
@@ -96,12 +96,12 @@ const Layout = ({ children }) => {
             <div className="column is-4">
               <h4 className="title is-5 has-text-white">Contact</h4>
               <p>
-                Email: <a href="mailto:toronto-org@kubernetescommunitydays.org" className="has-text-white-ter">toronto-org@kubernetescommunitydays.org</a>
+                Email: <a href="mailto:istanbul-organizers@kubernetescommunitydays.org" className="has-text-white-ter">istanbul-organizers@kubernetescommunitydays.org</a>
               </p>
               <h4 className="title is-5 has-text-white mt-4">Follow Us</h4>
               <div style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
                 <a
-                  href="https://www.linkedin.com/company/kcdtoronto"
+                  href="https://www.linkedin.com/company/kcdistanbul"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="has-text-white-ter"
@@ -121,7 +121,7 @@ const Layout = ({ children }) => {
                   {" "}LinkedIn
                 </a>
                 <a
-                  href="https://x.com/kcdtoronto"
+                  href="https://x.com/kcdistanbul"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="has-text-white-ter"
@@ -141,7 +141,7 @@ const Layout = ({ children }) => {
                   {" "}Twitter
                 </a>
                 <a
-                  href="https://www.instagram.com/kcd_toronto"
+                  href="https://www.instagram.com/kcdistanbul"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="has-text-white-ter"
@@ -165,7 +165,7 @@ const Layout = ({ children }) => {
           </div>
           <div className="content has-text-centered mt-5">
             <p className="has-text-white-ter">
-              &copy; 2026 KCD Toronto. Part of the{" "}
+              &copy; 2026 KCD Istanbul. Part of the{" "}
               <a href="https://www.cncf.io/" target="_blank" rel="noopener noreferrer" className="has-text-white">
                 CNCF
               </a>{" "}

@@ -1,6 +1,6 @@
-# KCD Toronto 2026 Website
+# KCD Istanbul 2026 Website
 
-Official website for Kubernetes Community Days Toronto 2026 - May 13th, 2026 at The Quay.
+Official website for Kubernetes Community Days Istanbul 2026 - May 15th, 2026 at TBA.
 
 ## 🚀 Quick Start
 
@@ -37,7 +37,7 @@ Visit http://localhost:8000 to view the site.
 ## 📁 Project Structure
 
 ```
-kcd-toronto-2026/
+kcd-istanbul-2026/
 ├── src/
 │   ├── components/          # Reusable React components
 │   │   ├── layout.js       # Main layout with navbar & footer
@@ -46,7 +46,7 @@ kcd-toronto-2026/
 │   │   └── icon.png        # Site favicon (update this!)
 │   └── pages/              # Page components (auto-routing)
 │       ├── index.js        # Homepage
-│       ├── about.js        # About KCD Toronto
+│       ├── about.js        # About KCD Istanbul
 │       ├── schedule.js     # Event schedule
 │       ├── speakers.js     # Speakers & CFP
 │       ├── sponsors.js     # Sponsorship information
@@ -71,7 +71,7 @@ Edit these files to update event information:
 **Homepage** (`src/pages/index.js`):
 ```javascript
 // Line ~22
-<strong>Date:</strong> May 13th, 2026 | <strong>Location:</strong> The Quay, Toronto
+<strong>Date:</strong> May 15th, 2026 | <strong>Location:</strong> TBA, Istanbul
 ```
 
 **All Page Headers**: Update the hero sections in each page file.
@@ -80,8 +80,8 @@ Edit these files to update event information:
 **File:** `gatsby-config.js`
 ```javascript
 siteMetadata: {
-  title: `KCD Toronto 2026`,
-  siteUrl: `https://kcdtoronto.ca` // Update with your domain
+  title: `KCD Istanbul 2026`,
+  siteUrl: `https://kcd.ist` // Update with your domain
 }
 ```
 
@@ -98,11 +98,11 @@ Replace placeholder emails throughout the site:
 - `src/pages/code-of-conduct.js`
 
 **Current placeholders:**
-- `info@kcdtoronto.ca`
-- `sponsors@kcdtoronto.ca`
-- `conduct@kcdtoronto.ca`
-- `volunteer@kcdtoronto.ca`
-- `team@kcdtoronto.ca`
+- `istanbul-organizers@kubernetescommunitydays.org`
+- `sponsors@kcd.ist`
+- `conduct@kcd.ist`
+- `volunteer@kcd.ist`
+- `team@kcd.ist`
 
 **Update to:**
 - Real team emails or
@@ -115,7 +115,7 @@ Replace placeholder emails throughout the site:
 
 **File:** `src/pages/venue.js`
 
-Current venue: **The Quay: Toronto Region Board of Trade**
+Current venue: **TBA: Istanbul Region Board of Trade**
 
 Update with:
 - Full address
@@ -133,7 +133,7 @@ Update with:
 ```
 src/images/
 ├── icon.png              # Favicon (512x512px recommended)
-├── logo.png              # KCD Toronto logo
+├── logo.png              # KCD Istanbul logo
 ├── hero-background.jpg   # Homepage hero image
 ├── venue/                # Venue photos
 ├── speakers/             # Speaker headshots
@@ -146,7 +146,7 @@ src/images/
 ```javascript
 import logoImage from '../images/logo.png'
 
-<img src={logoImage} alt="KCD Toronto Logo" />
+<img src={logoImage} alt="KCD Istanbul Logo" />
 ```
 
 **Option 2: Gatsby Image (Optimized)**
@@ -155,7 +155,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 <StaticImage
   src="../images/hero.jpg"
-  alt="KCD Toronto"
+  alt="KCD Istanbul"
   placeholder="blurred"
   layout="fullWidth"
 />
@@ -245,7 +245,7 @@ useEffect(() => {
 }, [])
 
 // Replace registration button
-<tito-button event="kcd-toronto/2026">Register Now</tito-button>
+<tito-button event="kcd-istanbul/2026">Register Now</tito-button>
 ```
 
 **Option 2: Eventbrite**
@@ -392,7 +392,7 @@ const scheduleItems = [
     time: "9:30 AM - 10:15 AM",
     title: "Opening Keynote",
     speaker: "Speaker Name",
-    description: "Welcome to KCD Toronto 2026"
+    description: "Welcome to KCD Istanbul 2026"
   },
   // Add more schedule items
 ]
@@ -455,7 +455,7 @@ netlify deploy --prod
 
 ### Custom Domain Setup
 
-1. Purchase domain (e.g., `kcdtoronto.ca`)
+1. Purchase domain (e.g., `kcd.ist`)
 2. In Netlify Dashboard:
    - Site Settings → Domain management
    - Add custom domain
@@ -472,8 +472,8 @@ netlify deploy --prod
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/distributethe6ix/kcd-toronto-front-end.git
-   cd kcd-toronto-front-end/kcd-toronto-2026
+   git clone https://github.com/distributethe6ix/kcd-istanbul-front-end.git
+   cd kcd-istanbul-front-end/kcd-istanbul-2026
    ```
 
 2. **Create a feature branch**
@@ -517,12 +517,12 @@ netlify deploy --prod
 - Marino Wijay: marino.wijay@gmail.com
 
 **Social Media:**
-- Twitter: https://x.com/@KCDToronto
-- LinkedIn: https://www.linkedin.com/company/kcdtoronto
-- Linktree: https://linktr.ee/kcd.toronto
+- Twitter: https://x.com/@KCDIstanbul
+- LinkedIn: https://www.linkedin.com/company/kcdistanbul
+- Linktree: https://linktr.ee/kcdistanbul
 
 **Official Event Page:**
-- toronto-org@kubernetescommunitydays.org
+- istanbul-organizers@kubernetescommunitydays.org
 
 ---
 
@@ -541,4 +541,14 @@ This project is part of the Kubernetes Community Days program, supported by the 
 
 ---
 
-**Ready to make KCD Toronto 2026 amazing!** 🚀🎉
+**Ready to make KCD Istanbul 2026 amazing!** 🚀🎉
+
+
+TODO:
+
+1. Logo images - Replace the renamed placeholder files in /static/ with actual Istanbul KCD logos
+2. Community Slack link - The link in src/pages/community.js still points to k8scanada Slack. Update this to your Istanbul/Turkish cloud native community Slack
+3. Sponsor prospectus PDF - Rename the file to KCD Istanbul Sponsor Prospectus 2026.pdf in the static folder
+4. RBC sponsor - The sponsor section still shows RBC (Canadian bank). You may want to update or remove this
+5. Team members - The team page still lists the Toronto organizing team members. Update with your Istanbul team                                                                                        
+                                                                                                                   

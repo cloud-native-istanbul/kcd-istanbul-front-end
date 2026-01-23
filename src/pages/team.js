@@ -19,7 +19,7 @@ const TeamPage = () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="title is-1">Organizing Team</h1>
-            <p className="subtitle is-3">Meet the people behind KCD Toronto</p>
+            <p className="subtitle is-3">Meet the people behind KCD Istanbul</p>
           </div>
         </div>
       </section>
@@ -27,7 +27,7 @@ const TeamPage = () => {
       <section className="section">
         <div className="container">
           <p className="has-text-centered is-size-5 mb-6">
-            KCD Toronto 2026 is organized by a dedicated team of volunteers from the Canadian cloud native community.
+            KCD Istanbul 2026 is organized by a dedicated team of volunteers from the Turkish cloud native community.
             We're passionate about bringing together technologists, practitioners, and enthusiasts.
           </p>
 
@@ -67,7 +67,7 @@ const TeamPage = () => {
             <h2 className="title is-3 has-text-centered">Join Our Team</h2>
             <div className="content">
               <p className="has-text-centered">
-                We're always looking for passionate volunteers to help make KCD Toronto a success!
+                We're always looking for passionate volunteers to help make KCD Istanbul a success!
               </p>
               <p className="has-text-centered"><strong>Volunteer opportunities include:</strong></p>
               <div className="columns">
@@ -83,7 +83,7 @@ const TeamPage = () => {
                 </div>
               </div>
               <div className="has-text-centered mt-5">
-                <a href="mailto:toronto-org@kubernetescommunitydays.org" className="button is-primary is-large">
+                <a href="mailto:istanbul-organizers@kubernetescommunitydays.org" className="button is-primary is-large">
                   <strong>Volunteer with Us</strong>
                 </a>
               </div>
@@ -93,7 +93,7 @@ const TeamPage = () => {
           <div className="box has-background-light mt-6">
             <p>
               <strong>Questions for the organizing team?</strong> Reach out to us at{" "}
-              <a href="mailto:toronto-org@kubernetescommunitydays.org">toronto-org@kubernetescommunitydays.org</a>
+              <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>
           </div>
         </div>
@@ -104,4 +104,4 @@ const TeamPage = () => {
 
 export default TeamPage
 
-export const Head = () => <title>Team - KCD Toronto 2026</title>
+export const Head = () => <title>Team - KCD Istanbul 2026</title>

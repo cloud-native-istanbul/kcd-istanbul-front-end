@@ -3,13 +3,13 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `KCD Toronto 2026`,
-    siteUrl: `https://kcdtoronto.ca`
+    title: `KCD Istanbul 2026`,
+    siteUrl: `https://kcd.ist`
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      "icon": "static/toronto-cncf.png",
+      "icon": "static/istanbul-cncf.png",
       "lang": "en"
     }
   }, "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {

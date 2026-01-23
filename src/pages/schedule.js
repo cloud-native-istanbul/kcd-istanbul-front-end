@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 const SchedulePage = () => {
   const scheduleItems = [
     { time: "8:00 AM - 9:00 AM", title: "Registration & Breakfast", description: "Check in, grab breakfast, and network with fellow attendees" },
-    { time: "9:00 AM - 9:15 AM", title: "Opening Remarks", speaker: "KCD Toronto Organizing Team", description: "Welcome to KCD Toronto 2026!" },
+    { time: "9:00 AM - 9:15 AM", title: "Opening Remarks", speaker: "KCD Istanbul Organizing Team", description: "Welcome to KCD Istanbul 2026!" },
     { time: "9:15 AM - 10:00 AM", title: "Keynote: The Future of Cloud Native", speaker: "TBA", description: "An inspiring keynote exploring the latest trends and innovations" },
     { time: "10:00 AM - 10:30 AM", title: "Coffee Break & Networking", description: "Connect with speakers and attendees over coffee" },
     { time: "10:30 AM - 12:00 PM", title: "Technical Talks - Track 1 & Track 2", description: "Parallel technical sessions covering Kubernetes, containers, and more" },
@@ -12,7 +12,7 @@ const SchedulePage = () => {
     { time: "1:00 PM - 2:30 PM", title: "Technical Talks - Track 1 & Track 2", description: "More parallel sessions featuring case studies and best practices" },
     { time: "2:30 PM - 3:00 PM", title: "Afternoon Break", description: "Refreshments and networking" },
     { time: "3:00 PM - 4:30 PM", title: "Hands-on Workshops", description: "Interactive workshops with cloud native technologies" },
-    { time: "4:30 PM - 5:00 PM", title: "Closing Remarks & Prize Draw", speaker: "KCD Toronto Organizing Team", description: "Wrap up the day and announce prize winners" },
+    { time: "4:30 PM - 5:00 PM", title: "Closing Remarks & Prize Draw", speaker: "KCD Istanbul Organizing Team", description: "Wrap up the day and announce prize winners" },
     { time: "5:00 PM - 7:00 PM", title: "After Party", description: "Continue the conversation at our after-event social gathering" },
   ]
 
@@ -22,7 +22,7 @@ const SchedulePage = () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="title is-1">Event Schedule</h1>
-            <p className="subtitle is-3">TBA 2026 | Toronto, ON</p>
+            <p className="subtitle is-3">May 15, 2026 | Istanbul, Turkey</p>
           </div>
         </div>
       </section>
@@ -71,4 +71,4 @@ const SchedulePage = () => {
 
 export default SchedulePage
 
-export const Head = () => <title>Schedule - KCD Toronto 2026</title>
+export const Head = () => <title>Schedule - KCD Istanbul 2026</title>

@@ -8,7 +8,7 @@ const SponsorsPage = () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="title is-1">Sponsors</h1>
-            <p className="subtitle is-3">Support KCD Toronto 2026</p>
+            <p className="subtitle is-3">Support KCD Istanbul 2026</p>
           </div>
         </div>
       </section>
@@ -19,20 +19,20 @@ const SponsorsPage = () => {
             <h2 className="title is-3 has-text-centered">Become a Sponsor</h2>
             <div className="content">
               <p className="has-text-centered is-size-5">
-                KCD Toronto 2026 is made possible by the generous support of our sponsors. By sponsoring KCD Toronto,
-                you'll connect with the Canadian cloud native community and showcase your commitment to open source innovation.
+                KCD Istanbul 2026 is made possible by the generous support of our sponsors. By sponsoring KCD Istanbul,
+                you'll connect with the Turkish cloud native community and showcase your commitment to open source innovation.
               </p>
               <div className="has-text-centered mt-5">
                 <div className="buttons is-centered">
                   <a
-                    href="/KCD Toronto Sponsor Prospectus 2026.pdf"
+                    href="/KCD Istanbul Sponsor Prospectus 2026.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="button is-primary is-large"
                   >
                     <strong>Download Sponsorship Prospectus (PDF)</strong>
                   </a>
-                  <a href="mailto:toronto-org@kubernetescommunitydays.org" className="button is-outlined is-primary is-large">
+                  <a href="mailto:istanbul-organizers@kubernetescommunitydays.org" className="button is-outlined is-primary is-large">
                     <strong>Contact Us</strong>
                   </a>
                 </div>
@@ -75,7 +75,7 @@ const SponsorsPage = () => {
               <div className="column is-8">
                 <h3 className="title is-3" style={{ color: "#326ce5" }}>💎 Diamond / Committee Partner</h3>
                 <p className="mb-3">
-                  Our premier partner supporting KCD Toronto 2026. Diamond sponsors demonstrate exceptional leadership and commitment to the cloud native community.
+                  Our premier partner supporting KCD Istanbul 2026. Diamond sponsors demonstrate exceptional leadership and commitment to the cloud native community.
                 </p>
                 <p className="mb-3"><strong>1 exclusive spot (filled)</strong></p>
               </div>
@@ -207,7 +207,7 @@ const SponsorsPage = () => {
               Contact us to discuss custom opportunities including lunch sponsorship, coffee breaks, swag bags, and more.
             </p>
             <p className="mt-3">
-              <strong>Email:</strong> <a href="mailto:toronto-org@kubernetescommunitydays.org">toronto-org@kubernetescommunitydays.org</a>
+              <strong>Email:</strong> <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>
           </div>
         </div>
@@ -218,4 +218,4 @@ const SponsorsPage = () => {
 
 export default SponsorsPage
 
-export const Head = () => <title>Sponsors - KCD Toronto 2026</title>
+export const Head = () => <title>Sponsors - KCD Istanbul 2026</title>

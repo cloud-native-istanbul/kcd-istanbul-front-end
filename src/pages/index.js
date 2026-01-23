@@ -14,14 +14,14 @@ const IndexPage = () => {
             <h1 className="title is-1 is-spaced">
               Kubernetes Community Days
               <br />
-              Toronto 2026
+              Istanbul 2026
             </h1>
             <p className="subtitle is-3">
               Join the cloud native community for a day of learning, networking, and collaboration
             </p>
             <div className="box mt-5" style={{ backgroundColor: 'rgba(255,255,255,0.95)' }}>
               <p className="is-size-4 has-text-dark">
-                <strong>Date:</strong> May 13, 2026 | <strong>Location:</strong> The Quay, Toronto
+                <strong>Date:</strong> May 15, 2026 | <strong>Location:</strong> Istanbul, Turkey
               </p>
             </div>
             <div className="buttons is-centered mt-5">
@@ -40,8 +40,8 @@ const IndexPage = () => {
       <section className="section has-background-white" style={{ padding: '3rem 1.5rem' }}>
         <div className="container has-text-centered">
           <img
-            src="/toronto-cncf-horizontal-transparent.png"
-            alt="KCD Toronto Logo"
+            src="/istanbul-cncf-horizontal-transparent.png"
+            alt="KCD Istanbul Logo"
             style={{ maxWidth: '600px', width: '100%', height: 'auto' }}
           />
         </div>
@@ -52,12 +52,12 @@ const IndexPage = () => {
         <div className="container">
           <div className="columns is-vcentered">
             <div className="column is-6">
-              <h2 className="title is-2">About KCD Toronto</h2>
+              <h2 className="title is-2">About KCD Istanbul</h2>
               <div className="content is-medium">
                 <p>
                   Kubernetes Community Days (KCD) are community-organized events that gather adopters
                   and technologists from open source and cloud native communities for education,
-                  collaboration, and networking. KCD Toronto 2026 will bring together the Canadian
+                  collaboration, and networking. KCD Istanbul 2026 will bring together the Turkish
                   cloud native community for an exciting day of talks, workshops, and networking
                   opportunities.
                 </p>
@@ -67,7 +67,7 @@ const IndexPage = () => {
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_1196.jpeg"
-                  alt="CNCF Toronto Community"
+                  alt="CNCF Istanbul Community"
                   placeholder="blurred"
                 />
               </div>
@@ -168,7 +168,7 @@ const IndexPage = () => {
         <div className="container">
           <h2 className="title is-2 has-text-centered mb-5">Our Community</h2>
           <p className="has-text-centered is-size-5 mb-6">
-            The Toronto cloud native community comes together regularly at our CNCF meetups to share, learn, and grow together.
+            The Istanbul cloud native community comes together regularly at our CNCF meetups to share, learn, and grow together.
           </p>
 
           {/* First Row - 2 Photos */}
@@ -177,7 +177,7 @@ const IndexPage = () => {
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_0820.jpeg"
-                  alt="Attendees networking and socializing at CNCF Toronto meetup"
+                  alt="Attendees networking and socializing at CNCF Istanbul meetup"
                   placeholder="blurred"
                 />
               </div>
@@ -186,7 +186,7 @@ const IndexPage = () => {
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_4087.jpeg"
-                  alt="Community members engaged in discussion at CNCF Toronto event"
+                  alt="Community members engaged in discussion at CNCF Istanbul event"
                   placeholder="blurred"
                 />
               </div>
@@ -199,7 +199,7 @@ const IndexPage = () => {
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_8439.jpeg"
-                  alt="Speaker presenting to audience at CNCF Toronto meetup"
+                  alt="Speaker presenting to audience at CNCF Istanbul meetup"
                   placeholder="blurred"
                 />
               </div>
@@ -230,7 +230,7 @@ const IndexPage = () => {
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_9132.jpeg"
-                  alt="Group photo of CNCF Toronto community members and organizers"
+                  alt="Group photo of CNCF Istanbul community members and organizers"
                   placeholder="blurred"
                 />
               </div>
@@ -252,7 +252,7 @@ const IndexPage = () => {
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_9708.jpeg"
-                  alt="Community members mingling and networking during CNCF Toronto event break"
+                  alt="Community members mingling and networking during CNCF Istanbul event break"
                   placeholder="blurred"
                 />
               </div>
@@ -272,7 +272,7 @@ const IndexPage = () => {
         <div className="container">
           <h2 className="title is-2 has-text-centered mb-5">Our Sponsors</h2>
           <p className="has-text-centered is-size-5 mb-6">
-            Thank you to our sponsors for making KCD Toronto 2026 possible. Interested in sponsoring? View our prospectus for more details.
+            Thank you to our sponsors for making KCD Istanbul 2026 possible. Interested in sponsoring? View our prospectus for more details.
           </p>
 
           {/* Diamond/Committee Partner */}
@@ -306,7 +306,7 @@ const IndexPage = () => {
               <div className="column is-8">
                 <h3 className="title is-3">Ready to Join Us?</h3>
                 <p className="subtitle is-5">
-                  Be part of Toronto's premier cloud native community event. Register today to secure your spot!
+                  Be part of Istanbul's premier cloud native community event. Register today to secure your spot!
                 </p>
               </div>
               <div className="column is-4 has-text-centered">
@@ -324,4 +324,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>KCD Toronto 2026 - Kubernetes Community Days</title>
+export const Head = () => <title>KCD Istanbul 2026 - Kubernetes Community Days</title>
