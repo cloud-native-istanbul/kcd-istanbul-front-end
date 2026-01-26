@@ -405,3 +405,7 @@ select:focus {
     font-size: 1.5rem !important;
   }
 }
+
+a[href^="mailto:"] {
+  word-break: break-all;
+}
