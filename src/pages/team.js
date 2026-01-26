@@ -67,12 +67,12 @@ const TeamPage = () => {
           </div>
 
           <div className="box has-background-info-light mt-6">
-            <h2 className="title is-3 has-text-centered">Join Our Team</h2>
+            <h2 className="title is-3 has-text-centered has-text-dark">Join Our Team</h2>
             <div className="content">
               <p className="has-text-centered">
                 We're always looking for passionate volunteers to help make KCD Istanbul a success!
               </p>
-              <p className="has-text-centered"><strong>Volunteer opportunities include:</strong></p>
+              <p className="has-text-centered"><strong className="has-text-dark">Volunteer opportunities include:</strong></p>
               <div className="columns">
                 <div className="column is-6 is-offset-3">
                   <ul>
@@ -94,7 +94,7 @@ const TeamPage = () => {
           </div>
 
           <div className="box has-background-light mt-6">
-            <p>
+            <p className="has-text-weight-semibold">
               <strong>Questions for the organizing team?</strong> Reach out to us at{" "}
               <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>

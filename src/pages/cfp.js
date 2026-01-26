@@ -19,15 +19,15 @@ const CFPPage = () => {
           <div className="columns">
             <div className="column is-8 is-offset-2">
               <div className="box has-background-info-light mb-5">
-                <h2 className="title is-3 has-text-centered">We Want to Hear From You!</h2>
+                <h2 className="title is-3 has-text-centered has-text-dark">We Want to Hear From You!</h2>
                 <div className="content">
                   <p className="is-size-5 has-text-centered">
-                    Kubernetes Community Days Istanbul will gather over <strong>350 developers, platform engineers,
+                    Kubernetes Community Days Istanbul will gather over <strong className="has-text-dark">350 developers, platform engineers,
                     architects, leaders and IT professionals</strong> for a full day dedicated to cloud-native
                     technology and open source innovation.
                   </p>
                   <p className="is-size-5 has-text-centered mt-4">
-                    With <strong>25+ speakers and 20+ sessions</strong>, we're creating a vendor-neutral,
+                    With <strong className="has-text-dark">25+ speakers and 20+ sessions</strong>, we're creating a vendor-neutral,
                     learning-focused environment where the community shares real-world experiences.
                   </p>
                 </div>
@@ -95,22 +95,22 @@ const CFPPage = () => {
               </div>
 
               <div className="box mb-5 has-background-light">
-                <h3 className="title is-4 has-text-centered">Why Speak at KCD Istanbul?</h3>
+                <h3 className="title is-4 has-text-centered has-text-dark">Why Speak at KCD Istanbul?</h3>
                 <div className="content">
                   <div className="columns">
                     <div className="column is-4 has-text-centered">
                       <p className="title is-1 has-text-primary">🎟️</p>
-                      <p className="mt-3"><strong>Free Event Access</strong></p>
+                      <p className="mt-3"><strong className="has-text-dark">Free Event Access</strong></p>
                       <p>Complimentary admission for all speakers</p>
                     </div>
                     <div className="column is-4 has-text-centered">
                       <p className="title is-1 has-text-primary">👥</p>
-                      <p className="mt-3"><strong>Community Platform</strong></p>
+                      <p className="mt-3"><strong className="has-text-dark">Community Platform</strong></p>
                       <p>Share knowledge in a vendor-neutral, learning-focused environment</p>
                     </div>
                     <div className="column is-4 has-text-centered">
                       <p className="title is-1 has-text-primary">📹</p>
-                      <p className="mt-3"><strong>Recorded Sessions</strong></p>
+                      <p className="mt-3"><strong className="has-text-dark">Recorded Sessions</strong></p>
                       <p>Your talk published on YouTube for the community</p>
                     </div>
                   </div>
@@ -145,7 +145,7 @@ const CFPPage = () => {
 
               {/* Sessionize CFP Form Link */}
               <div className="box has-background-primary-light">
-                <h2 className="title is-2 has-text-centered mb-4">Ready to Share Your Story?</h2>
+                <h2 className="title is-2 has-text-centered mb-4 has-text-dark">Ready to Share Your Story?</h2>
                 <div className="content has-text-centered">
                   <p className="is-size-5 mb-5">
                     Join 25+ speakers in sharing practical, real-world cloud native experiences with Istanbul's community.
@@ -165,8 +165,8 @@ const CFPPage = () => {
               </div>
 
               <div className="box has-background-light mt-5">
-                <h3 className="title is-5 has-text-centered">Need Help or Have Questions?</h3>
-                <p className="has-text-centered">
+                <h3 className="title is-5 has-text-centered has-text-dark">Need Help or Have Questions?</h3>
+                <p className="has-text-centered has-text-weight-semibold">
                   We're here to help! Reach out to our speaker team at{" "}
                   <a href="mailto:istanbul-organizers@kubernetescommunitydays.org"><strong>istanbul-organizers@kubernetescommunitydays.org</strong></a>
                 </p>

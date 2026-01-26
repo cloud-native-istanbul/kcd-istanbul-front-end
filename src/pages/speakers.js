@@ -16,7 +16,7 @@ const SpeakersPage = () => {
       <section className="section">
         <div className="container">
           <div className="box has-background-info-light">
-            <h2 className="title is-3 has-text-centered">Call for Proposals</h2>
+            <h2 className="title is-3 has-text-centered has-text-dark">Call for Proposals</h2>
             <p className="subtitle has-text-centered">We're looking for speakers!</p>
             <div className="content">
               <p className="has-text-centered">

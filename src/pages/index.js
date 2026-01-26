@@ -21,7 +21,7 @@ const IndexPage = () => {
             </p>
             <div className="box mt-5" style={{ backgroundColor: 'rgba(255,255,255,0.95)' }}>
               <p className="is-size-4 has-text-dark">
-                <strong>Date:</strong> May 15, 2026 | <strong>Location:</strong> Istanbul, Turkey
+                <strong className="has-text-dark">Date:</strong> May 15, 2026 | <strong className="has-text-dark">Location:</strong> Istanbul, Turkey
               </p>
             </div>
             <div className="buttons is-centered mt-5">
@@ -79,7 +79,7 @@ const IndexPage = () => {
       {/* What to Expect Section */}
       <section className="section has-background-light">
         <div className="container">
-          <h2 className="title is-2 has-text-centered mb-6">What to Expect</h2>
+          <h2 className="title is-2 has-text-centered has-text-dark mb-6">What to Expect</h2>
           <div className="columns is-multiline">
             <div className="column is-4">
               <div className="card">
@@ -270,7 +270,7 @@ const IndexPage = () => {
       {/* Sponsors Showcase Section */}
       <section className="section has-background-light">
         <div className="container">
-          <h2 className="title is-2 has-text-centered mb-5">Our Sponsors</h2>
+          <h2 className="title is-2 has-text-centered has-text-dark mb-5">Our Sponsors</h2>
           <p className="has-text-centered is-size-5 mb-6">
             Thank you to our sponsors for making KCD Istanbul 2026 possible. Interested in sponsoring? View our prospectus for more details.
           </p>
@@ -290,7 +290,7 @@ const IndexPage = () => {
           <div className="box has-background-primary-light">
             <div className="columns is-vcentered">
               <div className="column is-8">
-                <h3 className="title is-3">Ready to Join Us?</h3>
+                <h3 className="title has-text-dark is-3">Ready to Join Us?</h3>
                 <p className="subtitle is-5">
                   Be part of Istanbul's premier cloud native community event. Register today to secure your spot!
                 </p>
