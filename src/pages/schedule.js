@@ -7,13 +7,13 @@ const SchedulePage = () => {
     { time: "9:00 AM - 9:15 AM", title: "Opening Remarks", speaker: "KCD Istanbul Organizing Team", description: "Welcome to KCD Istanbul 2026!" },
     { time: "9:15 AM - 10:00 AM", title: "Keynote: The Future of Cloud Native", speaker: "TBA", description: "An inspiring keynote exploring the latest trends and innovations" },
     { time: "10:00 AM - 10:30 AM", title: "Coffee Break & Networking", description: "Connect with speakers and attendees over coffee" },
-    { time: "10:30 AM - 12:00 PM", title: "Technical Talks - Track 1 & Track 2", description: "Parallel technical sessions covering Kubernetes, containers, and more" },
+    { time: "10:30 AM - 12:00 PM", title: "Technical Talks", description: "Technical sessions covering Kubernetes, containers, and more" },
     { time: "12:00 PM - 1:00 PM", title: "Lunch & Networking", description: "Enjoy lunch and continue conversations with the community" },
-    { time: "1:00 PM - 2:30 PM", title: "Technical Talks - Track 1 & Track 2", description: "More parallel sessions featuring case studies and best practices" },
+    { time: "1:00 PM - 2:30 PM", title: "Technical Talks", description: "More technical sessions featuring case studies and best practices" },
     { time: "2:30 PM - 3:00 PM", title: "Afternoon Break", description: "Refreshments and networking" },
-    { time: "3:00 PM - 4:30 PM", title: "Hands-on Workshops", description: "Interactive workshops with cloud native technologies" },
-    { time: "4:30 PM - 5:00 PM", title: "Closing Remarks & Prize Draw", speaker: "KCD Istanbul Organizing Team", description: "Wrap up the day and announce prize winners" },
-    { time: "5:00 PM - 7:00 PM", title: "After Party", description: "Continue the conversation at our after-event social gathering" },
+    { time: "3:00 PM - 4:30 PM", title: "Technical Talks", description: "More technical sessions covering cloud native technologies" },
+    { time: "4:30 PM - 5:00 PM", title: "Closing Remarks", speaker: "KCD Istanbul Organizing Team", description: "Wrap up the day" },
+    { time: "5:00 PM - 7:00 PM", title: "Networking", description: "Continue the conversation at our after-event social gathering" },
   ]
 
   return (

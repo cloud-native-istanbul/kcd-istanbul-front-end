@@ -80,11 +80,9 @@ const SponsorsPage = () => {
                 <p className="mb-3"><strong>1 exclusive spot (filled)</strong></p>
               </div>
               <div className="column is-4">
-                <a href="https://www.rbc.com" target="_blank" rel="noopener noreferrer">
-                  <div className="box has-text-centered has-background-white" style={{ border: "3px solid #B9F2FF", padding: "2rem" }}>
-                    <img src="/sponsors/RBC-logo.png" alt="RBC - Diamond/Committee Partner Sponsor" style={{ maxWidth: '100%', height: 'auto' }} />
-                  </div>
-                </a>
+                <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
+                  <p className="has-text-grey is-size-5">Your Logo Here</p>
+                </div>
               </div>
             </div>
           </div>

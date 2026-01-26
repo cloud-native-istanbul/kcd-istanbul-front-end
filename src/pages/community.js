@@ -28,70 +28,70 @@ const CommunityPage = () => {
           <div className="photo-gallery">
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_0762.jpeg"
+                src="../images/community/IMG_0762.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_0816.jpeg"
+                src="../images/community/IMG_0816.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_1188.jpeg"
+                src="../images/community/IMG_1188.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_2691.jpeg"
+                src="../images/community/IMG_2691.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_2717.jpeg"
+                src="../images/community/IMG_2717.PNG"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_5050.jpeg"
+                src="../images/community/IMG_5050.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_6734.jpeg"
+                src="../images/community/IMG_6734.JPG"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_8504.jpeg"
+                src="../images/community/IMG_8504.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_9719.jpeg"
+                src="../images/community/IMG_9719.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
             </div>
             <div className="photo-gallery-item">
               <StaticImage
-                src="../images/community/IMG_9854.jpeg"
+                src="../images/community/IMG_9854.jpg"
                 alt="CNCF Istanbul Meetup"
                 placeholder="blurred"
               />
