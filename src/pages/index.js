@@ -7,7 +7,7 @@ const IndexPage = () => {
     <Layout>
       {/* Hero Section with Banner */}
       <section className="hero is-primary is-medium hero-with-banner" style={{
-        backgroundImage: "url('/IMG_7165.JPG')"
+        backgroundImage: "url('/kiz-kulesi.jpg')"
       }}>
         <div className="hero-body" style={{ position: 'relative', zIndex: 1 }}>
           <div className="container has-text-centered">
@@ -66,7 +66,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/IMG_1196.jpeg"
+                  src="../images/homepage/IMG_7480.jpg"
                   alt="CNCF Istanbul Community"
                   placeholder="blurred"
                 />
@@ -176,7 +176,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/IMG_0820.jpeg"
+                  src="../images/homepage/IMG_7495.jpg"
                   alt="Attendees networking and socializing at CNCF Istanbul meetup"
                   placeholder="blurred"
                 />
@@ -185,7 +185,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/IMG_4087.jpeg"
+                  src="../images/homepage/IMG_7895.jpg"
                   alt="Community members engaged in discussion at CNCF Istanbul event"
                   placeholder="blurred"
                 />
@@ -198,7 +198,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/IMG_8439.jpeg"
+                  src="../images/homepage/IMG_7494.jpg"
                   alt="Speaker presenting to audience at CNCF Istanbul meetup"
                   placeholder="blurred"
                 />
@@ -229,7 +229,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/IMG_9132.jpeg"
+                  src="../images/homepage/kiz-kulesi.jpg"
                   alt="Group photo of CNCF Istanbul community members and organizers"
                   placeholder="blurred"
                 />
@@ -242,7 +242,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/IMG_9503.jpeg"
+                  src="../images/homepage/IMG_8523.jpg"
                   alt="Workshop session with participants collaborating on cloud native technologies"
                   placeholder="blurred"
                 />
@@ -251,7 +251,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/IMG_9708.jpeg"
+                  src="../images/homepage/IMG_9708.JPG"
                   alt="Community members mingling and networking during CNCF Istanbul event break"
                   placeholder="blurred"
                 />
