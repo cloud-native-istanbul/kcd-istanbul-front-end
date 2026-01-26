@@ -16,7 +16,7 @@ const SponsorsPage = () => {
       <section className="section">
         <div className="container">
           <div className="box has-background-info-light">
-            <h2 className="title is-3 has-text-centered">Become a Sponsor</h2>
+            <h2 className="title is-3 has-text-centered has-text-dark">Become a Sponsor</h2>
             <div className="content">
               <p className="has-text-centered is-size-5">
                 KCD Istanbul 2026 is made possible by the generous support of our sponsors. By sponsoring KCD Istanbul,
@@ -200,12 +200,12 @@ const SponsorsPage = () => {
           </div>
 
           <div className="box has-background-light mt-6">
-            <h3 className="title is-4">Interested in Sponsoring?</h3>
-            <p>
+            <h3 className="title is-4 has-text-dark">Interested in Sponsoring?</h3>
+            <p className="has-text-weight-semibold">
               Contact us to discuss custom opportunities including lunch sponsorship, coffee breaks, swag bags, and more.
             </p>
-            <p className="mt-3">
-              <strong>Email:</strong> <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
+            <p className="mt-3 has-text-weight-semibold">
+              <strong className="has-text-dark">Email:</strong> <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>
           </div>
         </div>

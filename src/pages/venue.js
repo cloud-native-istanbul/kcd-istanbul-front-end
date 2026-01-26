@@ -16,12 +16,12 @@ const VenuePage = () => {
       <section className="section">
         <div className="container">
           <div className="box has-background-primary-light">
-            <h2 className="title is-3 has-text-centered">Venue To Be Announced</h2>
+            <h2 className="title is-3 has-text-centered has-text-dark">Venue To Be Announced</h2>
             <p className="has-text-centered is-size-5 mb-4">
-              <strong>Istanbul, Turkey</strong>
+              <strong className="has-text-dark">Istanbul, Turkey</strong>
             </p>
             <p className="has-text-centered mb-5">
-              Join us on <strong>May 15, 2026</strong> in Istanbul. Venue details will be announced soon!
+              Join us on <strong className="has-text-dark">May 15, 2026</strong> in Istanbul. Venue details will be announced soon!
             </p>
           </div>
 
@@ -83,7 +83,7 @@ const VenuePage = () => {
           </div>
 
           <div className="box has-background-light mt-6">
-            <p>
+            <p className="has-text-weight-semibold">
               <strong>Questions about the venue or getting to Istanbul?</strong> Contact us at{" "}
               <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>
