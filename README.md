@@ -543,12 +543,7 @@ This project is part of the Kubernetes Community Days program, supported by the 
 
 **Ready to make KCD Istanbul 2026 amazing!** 🚀🎉
 
-
 TODO:
 
-1. Logo images - Replace the renamed placeholder files in /static/ with actual Istanbul KCD logos
-2. Community Slack link - The link in src/pages/community.js still points to k8scanada Slack. Update this to your Istanbul/Turkish cloud native community Slack
-3. Sponsor prospectus PDF - Rename the file to KCD Istanbul Sponsor Prospectus 2026.pdf in the static folder
-4. RBC sponsor - The sponsor section still shows RBC (Canadian bank). You may want to update or remove this
-5. Team members - The team page still lists the Toronto organizing team members. Update with your Istanbul team                                                                                        
-                                                                                                                   
+1. Sponsor prospectus PDF - Rename the file to KCD Istanbul Sponsor Prospectus 2026.pdf in the static folder
+2. Team members - The team page still lists the Toronto organizing team members. Update with your Istanbul team

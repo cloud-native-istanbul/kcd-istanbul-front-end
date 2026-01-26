@@ -102,17 +102,17 @@ const CommunityPage = () => {
             <h3 className="title is-3 has-text-centered">Join Our Community</h3>
             <div className="content has-text-centered">
               <p className="is-size-5">
-                Want to be part of the Istanbul cloud native community? Join our Slack workspace
+                Want to be part of the Istanbul cloud native community? Join our #kcd-istanbul-public channel in CNCF Slack workspace
                 to connect, learn, and collaborate with fellow cloud native enthusiasts.
               </p>
               <div className="buttons is-centered mt-5">
                 <a
-                  href="https://join.slack.com/t/k8scanada/shared_invite/zt-3mgw5k1cx-TyqvlwwkyPv4EzVEBHnFlA"
+                  href="https://communityinviter.com/apps/cloud-native/cncf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="button is-primary is-large"
                 >
-                  <strong>Join Community Slack</strong>
+                  <strong>Join CNCF Slack</strong>
                 </a>
               </div>
             </div>
