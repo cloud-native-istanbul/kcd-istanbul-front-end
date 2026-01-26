@@ -511,15 +511,9 @@ netlify deploy --prod
 ---
 
 ## 📞 Support & Contact
-
-**Organizers:**
-- Ayrat Khayretdinov: Ayrat.khayretdinov@gmail.com
-- Marino Wijay: marino.wijay@gmail.com
-
 **Social Media:**
 - Twitter: https://x.com/@KCDIstanbul
 - LinkedIn: https://www.linkedin.com/company/kcdistanbul
-- Linktree: https://linktr.ee/kcdistanbul
 
 **Official Event Page:**
 - istanbul-organizers@kubernetescommunitydays.org
