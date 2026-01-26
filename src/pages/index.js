@@ -40,7 +40,7 @@ const IndexPage = () => {
       <section className="section has-background-white" style={{ padding: '3rem 1.5rem' }}>
         <div className="container has-text-centered">
           <img
-            src="/istanbul-cncf-horizontal-transparent.png"
+            src="/istanbul-cncf-horizontal-transparent.svg"
             alt="KCD Istanbul Logo"
             style={{ maxWidth: '600px', width: '100%', height: 'auto' }}
           />
