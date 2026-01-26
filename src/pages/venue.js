@@ -84,7 +84,7 @@ const VenuePage = () => {
 
           <div className="box has-background-light mt-6">
             <p className="has-text-weight-semibold">
-              <strong>Questions about the venue or getting to Istanbul?</strong> Contact us at{" "}
+              <strong className="has-text-dark">Questions about the venue or getting to Istanbul?</strong> Contact us at{" "}
               <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>
           </div>

@@ -95,7 +95,7 @@ const TeamPage = () => {
 
           <div className="box has-background-light mt-6">
             <p className="has-text-weight-semibold">
-              <strong>Questions for the organizing team?</strong> Reach out to us at{" "}
+              <strong className="has-text-dark">Questions for the organizing team?</strong> Reach out to us at{" "}
               <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>
           </div>
