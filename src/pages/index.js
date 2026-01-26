@@ -24,7 +24,7 @@ const IndexPage = () => {
                 <strong className="has-text-dark">Date:</strong> May 15, 2026 | <strong className="has-text-dark">Location:</strong> Istanbul, Turkey
               </p>
             </div>
-            <div className="buttons is-centered mt-5">
+            <div className="buttons is-centered is-flex-wrap-wrap mt-5">
               <a href="#register" className="button is-light is-large">
                 <strong>Register Now (Coming Soon!)</strong>
               </a>
@@ -50,8 +50,8 @@ const IndexPage = () => {
       {/* About Section with Photo */}
       <section className="section">
         <div className="container">
-          <div className="columns is-vcentered">
-            <div className="column is-6">
+          <div className="columns is-vcentered is-multiline">
+            <div className="column is-6-desktop is-12-mobile">
               <h2 className="title is-2">About KCD Istanbul</h2>
               <div className="content is-medium">
                 <p>
@@ -63,7 +63,7 @@ const IndexPage = () => {
                 </p>
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_7480.jpg"
@@ -81,7 +81,7 @@ const IndexPage = () => {
         <div className="container">
           <h2 className="title is-2 has-text-centered has-text-dark mb-6">What to Expect</h2>
           <div className="columns is-multiline">
-            <div className="column is-4">
+            <div className="column is-4-desktop is-12-mobile">
               <div className="card">
                 <div className="card-content">
                   <div className="content">
@@ -94,7 +94,7 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-4">
+            <div className="column is-4-desktop is-12-mobile">
               <div className="card">
                 <div className="card-content">
                   <div className="content">
@@ -107,7 +107,7 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-4">
+            <div className="column is-4-desktop is-12-mobile">
               <div className="card">
                 <div className="card-content">
                   <div className="content">
@@ -120,7 +120,7 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-4">
+            <div className="column is-4-desktop is-12-mobile">
               <div className="card">
                 <div className="card-content">
                   <div className="content">
@@ -133,7 +133,7 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-4">
+            <div className="column is-4-desktop is-12-mobile">
               <div className="card">
                 <div className="card-content">
                   <div className="content">
@@ -146,7 +146,7 @@ const IndexPage = () => {
                 </div>
               </div>
             </div>
-            <div className="column is-4">
+            <div className="column is-4-desktop is-12-mobile">
               <div className="card">
                 <div className="card-content">
                   <div className="content">
@@ -172,8 +172,8 @@ const IndexPage = () => {
           </p>
 
           {/* First Row - 2 Photos */}
-          <div className="columns mb-4">
-            <div className="column is-6">
+          <div className="columns is-multiline mb-4">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_7495.jpg"
@@ -182,7 +182,7 @@ const IndexPage = () => {
                 />
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_7895.jpg"
@@ -194,8 +194,8 @@ const IndexPage = () => {
           </div>
 
           {/* Second Row - 2 Photos with Text */}
-          <div className="columns is-vcentered mb-4">
-            <div className="column is-6">
+          <div className="columns is-vcentered is-multiline mb-4">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_7494.jpg"
@@ -204,7 +204,7 @@ const IndexPage = () => {
                 />
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="content">
                 <h3 className="title is-3">Building Together</h3>
                 <p className="is-size-5">
@@ -216,8 +216,8 @@ const IndexPage = () => {
           </div>
 
           {/* Third Row - Text with 2 Photos */}
-          <div className="columns is-vcentered mb-4">
-            <div className="column is-6">
+          <div className="columns is-vcentered is-multiline mb-4">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="content">
                 <h3 className="title is-3">Learning & Sharing</h3>
                 <p className="is-size-5">
@@ -226,7 +226,7 @@ const IndexPage = () => {
                 </p>
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/kiz-kulesi.jpg"
@@ -238,8 +238,8 @@ const IndexPage = () => {
           </div>
 
           {/* Fourth Row - 2 Photos */}
-          <div className="columns">
-            <div className="column is-6">
+          <div className="columns is-multiline">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_8523.jpg"
@@ -248,7 +248,7 @@ const IndexPage = () => {
                 />
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="photo-gallery-item">
                 <StaticImage
                   src="../images/homepage/IMG_9708.JPG"
@@ -288,14 +288,14 @@ const IndexPage = () => {
       <section id="register" className="section">
         <div className="container">
           <div className="box has-background-primary-light">
-            <div className="columns is-vcentered">
-              <div className="column is-8">
+            <div className="columns is-vcentered is-multiline">
+              <div className="column is-8-desktop is-12-mobile">
                 <h3 className="title has-text-dark is-3">Ready to Join Us?</h3>
                 <p className="subtitle is-5">
                   Be part of Istanbul's premier cloud native community event. Register today to secure your spot!
                 </p>
               </div>
-              <div className="column is-4 has-text-centered">
+              <div className="column is-4-desktop is-12-mobile has-text-centered">
                 <p className="button is-primary is-large" role="status" aria-live="polite">
                   <strong>Register Now (Coming Soon!)</strong>
                 </p>

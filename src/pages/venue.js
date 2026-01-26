@@ -29,7 +29,7 @@ const VenuePage = () => {
             <h2 className="title is-2">Getting to Istanbul</h2>
 
             <div className="columns is-multiline">
-              <div className="column is-6">
+              <div className="column is-6-desktop is-12-mobile">
                 <div className="box">
                   <h3 className="title is-4">By Air</h3>
                   <p>
@@ -84,7 +84,7 @@ const VenuePage = () => {
 
           <div className="box has-background-light mt-6">
             <p className="has-text-weight-semibold">
-              <strong>Questions about the venue or getting to Istanbul?</strong> Contact us at{" "}
+              <strong className="has-text-dark">Questions about the venue or getting to Istanbul?</strong> Contact us at{" "}
               <a href="mailto:istanbul-organizers@kubernetescommunitydays.org">istanbul-organizers@kubernetescommunitydays.org</a>
             </p>
           </div>

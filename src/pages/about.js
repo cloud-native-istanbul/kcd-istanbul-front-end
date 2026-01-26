@@ -36,25 +36,25 @@ const AboutPage = () => {
 
             <h2 className="title is-2 mt-6">Event Highlights</h2>
             <div className="columns is-multiline">
-              <div className="column is-6">
+              <div className="column is-6-desktop is-12-mobile">
                 <div className="box">
                   <h3 className="title is-4">Expert Speakers</h3>
                   <p>Learn from industry leaders and practitioners who are building cloud native solutions</p>
                 </div>
               </div>
-              <div className="column is-6">
+              <div className="column is-6-desktop is-12-mobile">
                 <div className="box">
                   <h3 className="title is-4">Technical Workshops</h3>
                   <p>Hands-on sessions covering Kubernetes, containers, service mesh, observability, and more</p>
                 </div>
               </div>
-              <div className="column is-6">
+              <div className="column is-6-desktop is-12-mobile">
                 <div className="box">
                   <h3 className="title is-4">Networking</h3>
                   <p>Connect with peers, potential employers, and the broader cloud native community</p>
                 </div>
               </div>
-              <div className="column is-6">
+              <div className="column is-6-desktop is-12-mobile">
                 <div className="box">
                   <h3 className="title is-4">Community Focus</h3>
                   <p>Celebrate and contribute to open source projects that power modern infrastructure</p>
