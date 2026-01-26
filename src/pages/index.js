@@ -229,7 +229,7 @@ const IndexPage = () => {
             <div className="column is-6">
               <div className="photo-gallery-item">
                 <StaticImage
-                  src="../images/homepage/kiz-kulesi.jpg"
+                  src="../images/kiz-kulesi.jpg"
                   alt="Group photo of CNCF Istanbul community members and organizers"
                   placeholder="blurred"
                 />
