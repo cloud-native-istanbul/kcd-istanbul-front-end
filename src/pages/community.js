@@ -102,7 +102,7 @@ const CommunityPage = () => {
             <h3 className="title is-3 has-text-centered has-text-dark">Join Our Community</h3>
             <div className="content has-text-centered">
               <p className="is-size-5">
-                Want to be part of the Istanbul cloud native community? Join our #kcd-istanbul-public channel in CNCF Slack workspace
+                Want to be part of the Istanbul cloud native community? Join our <strong className="has-text-dark">#kcd-istanbul-public</strong> channel in CNCF Slack workspace
                 to connect, learn, and collaborate with fellow cloud native enthusiasts.
               </p>
               <div className="buttons is-centered mt-5">
