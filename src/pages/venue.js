@@ -29,7 +29,7 @@ const VenuePage = () => {
             <h2 className="title is-2">Getting to Istanbul</h2>
 
             <div className="columns is-multiline">
-              <div className="column is-6">
+              <div className="column is-6-desktop is-12-mobile">
                 <div className="box">
                   <h3 className="title is-4">By Air</h3>
                   <p>

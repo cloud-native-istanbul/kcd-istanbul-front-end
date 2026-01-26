@@ -23,7 +23,7 @@ const SponsorsPage = () => {
                 you'll connect with the Turkish cloud native community and showcase your commitment to open source innovation.
               </p>
               <div className="has-text-centered mt-5">
-                <div className="buttons is-centered">
+                <div className="buttons is-centered is-flex-wrap-wrap">
                   <a
                     href="/KCD Istanbul Sponsor Prospectus 2026.pdf"
                     target="_blank"
@@ -42,25 +42,25 @@ const SponsorsPage = () => {
 
           <h2 className="title is-2 mt-6 mb-5">Why Sponsor?</h2>
           <div className="columns is-multiline">
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="box">
                 <h3 className="title is-4">Brand Visibility</h3>
                 <p>Get your brand in front of hundreds of cloud native professionals</p>
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="box">
                 <h3 className="title is-4">Community Engagement</h3>
                 <p>Connect directly with developers, architects, and decision-makers</p>
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="box">
                 <h3 className="title is-4">Talent Acquisition</h3>
                 <p>Meet potential candidates in the cloud native space</p>
               </div>
             </div>
-            <div className="column is-6">
+            <div className="column is-6-desktop is-12-mobile">
               <div className="box">
                 <h3 className="title is-4">Thought Leadership</h3>
                 <p>Position your company as a leader in cloud native technologies</p>
@@ -71,15 +71,15 @@ const SponsorsPage = () => {
           <h2 className="title is-2 mt-6 mb-5 has-text-centered">Sponsorship Tiers</h2>
 
           <div className="box mb-5" style={{ borderLeft: "6px solid #B9F2FF" }}>
-            <div className="columns">
-              <div className="column is-8">
+            <div className="columns is-multiline">
+              <div className="column is-8-desktop is-12-mobile">
                 <h3 className="title is-3" style={{ color: "#326ce5" }}>💎 Diamond / Committee Partner</h3>
                 <p className="mb-3">
                   Our premier partner supporting KCD Istanbul 2026. Diamond sponsors demonstrate exceptional leadership and commitment to the cloud native community.
                 </p>
                 <p className="mb-3"><strong>1 exclusive spot (filled)</strong></p>
               </div>
-              <div className="column is-4">
+              <div className="column is-4-desktop is-12-mobile">
                 <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
                   <p className="has-text-grey is-size-5">Your Logo Here</p>
                 </div>
@@ -88,8 +88,8 @@ const SponsorsPage = () => {
           </div>
 
           <div className="box mb-5" style={{ borderLeft: "6px solid #E5E4E2" }}>
-            <div className="columns">
-              <div className="column is-8">
+            <div className="columns is-multiline">
+              <div className="column is-8-desktop is-12-mobile">
                 <h3 className="title is-3" style={{ color: "#C0C0C0" }}>🏆 Platinum Sponsors</h3>
                 <p className="mb-3">
                   Platinum sponsors have the biggest impact on the conference. They represent companies for which Cloud Native approach is central in the way they implement their activity.
@@ -109,7 +109,7 @@ const SponsorsPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="column is-4">
+              <div className="column is-4-desktop is-12-mobile">
                 <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
                   <p className="has-text-grey is-size-5">Your Logo Here</p>
                   <p className="has-text-grey is-size-7 mt-2">(6 spots available)</p>
@@ -119,8 +119,8 @@ const SponsorsPage = () => {
           </div>
 
           <div className="box mb-5" style={{ borderLeft: "6px solid #FFD700" }}>
-            <div className="columns">
-              <div className="column is-8">
+            <div className="columns is-multiline">
+              <div className="column is-8-desktop is-12-mobile">
                 <h3 className="title is-3" style={{ color: "#FFD700" }}>🥈 Gold Sponsors</h3>
                 <p className="mb-3">
                   Gold sponsors form the backbone of the conference backers. They represent companies that believe the strongest in the Cloud Native movement and have the financial means and the willingness to support it.
@@ -138,7 +138,7 @@ const SponsorsPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="column is-4">
+              <div className="column is-4-desktop is-12-mobile">
                 <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
                   <p className="has-text-grey is-size-5">Your Logo Here</p>
                   <p className="has-text-grey is-size-7 mt-2">(10 spots available)</p>
@@ -148,8 +148,8 @@ const SponsorsPage = () => {
           </div>
 
           <div className="box mb-5" style={{ borderLeft: "6px solid #B87333" }}>
-            <div className="columns">
-              <div className="column is-8">
+            <div className="columns is-multiline">
+              <div className="column is-8-desktop is-12-mobile">
                 <h3 className="title is-3" style={{ color: "#B87333" }}>🥉 Silver Sponsors</h3>
                 <p className="mb-3">
                   Silver sponsors are important contributors to the conference. They represent companies who believe in cloud native technologies and experience daily their benefits for their software and platforms (or those from their customers!).
@@ -166,7 +166,7 @@ const SponsorsPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="column is-4">
+              <div className="column is-4-desktop is-12-mobile">
                 <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
                   <p className="has-text-grey is-size-5">Your Logo Here</p>
                   <p className="has-text-grey is-size-7 mt-2">(12 spots available)</p>
@@ -176,8 +176,8 @@ const SponsorsPage = () => {
           </div>
 
           <div className="box mb-5" style={{ borderLeft: "6px solid #E91E63" }}>
-            <div className="columns">
-              <div className="column is-8">
+            <div className="columns is-multiline">
+              <div className="column is-8-desktop is-12-mobile">
                 <h3 className="title is-3" style={{ color: "#E91E63" }}>💜 Community Partners</h3>
                 <p className="mb-3">
                   Community partners, such as cloud native project maintainers, tech community leaders in Open Source, DevOps, or Cloud Native technologies, and Open Source Evangelists, play a unique role as central contributors to our KCD event.
@@ -191,7 +191,7 @@ const SponsorsPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="column is-4">
+              <div className="column is-4-desktop is-12-multiline">
                 <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
                   <p className="has-text-grey is-size-5">Your Logo Here</p>
                 </div>

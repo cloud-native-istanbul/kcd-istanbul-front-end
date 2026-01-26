@@ -25,7 +25,7 @@ const SpeakersPage = () => {
               </p>
               <p className="has-text-centered"><strong>Topics we're interested in include:</strong></p>
               <div className="columns">
-                <div className="column is-6 is-offset-3">
+                <div className="column is-6-desktop is-12-mobile is-offset-3-desktop">
                   <ul>
                     <li>Kubernetes and container orchestration</li>
                     <li>Cloud native architecture and patterns</li>
@@ -50,7 +50,7 @@ const SpeakersPage = () => {
 
           <div className="columns is-multiline">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="column is-4">
+              <div key={i} className="column is-4-desktop is-12-mobile">
                 <div className="card">
                   <div className="card-content has-text-centered">
                     <div className="mb-4">

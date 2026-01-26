@@ -308,3 +308,100 @@ select:focus {
     max-width: 150px;
   }
 }
+
+/* Mobile Responsiveness Fixes */
+@media screen and (max-width: 768px) {
+  /* Hero section text sizing */
+  .hero .title.is-1 {
+    font-size: 2rem !important;
+  }
+  
+  .hero .subtitle.is-3 {
+    font-size: 1.25rem !important;
+  }
+  
+  /* Hero buttons - stack vertically */
+  .hero .buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .hero .buttons .button {
+    width: 100%;
+    margin: 0 !important;
+  }
+  
+  /* Reduce section padding on mobile */
+  .section {
+    padding: 2rem 1rem;
+  }
+  
+  /* Stack columns properly */
+  .columns.is-vcentered {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Ensure text columns appear in logical order */
+  .columns.is-vcentered .column {
+    width: 100%;
+  }
+  
+  /* Reduce title sizes on mobile */
+  .title.is-2 {
+    font-size: 1.75rem !important;
+  }
+  
+  .title.is-3 {
+    font-size: 1.5rem !important;
+  }
+  
+  /* Info box in hero */
+  .hero .box {
+    padding: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .hero .box .is-size-4 {
+    font-size: 1rem !important;
+  }
+  
+  /* Photo gallery items on mobile */
+  .photo-gallery-item {
+    margin-bottom: 1rem;
+  }
+  
+  /* Sponsor logos */
+  .sponsor-logo-link .box {
+    padding: 1rem !important;
+    min-height: 100px !important;
+  }
+  
+  /* CTA box - stack content */
+  #register .box .columns {
+    text-align: center;
+  }
+  
+  #register .box .column.is-8,
+  #register .box .column.is-4 {
+    width: 100%;
+  }
+  
+  /* Button sizing on mobile */
+  .button.is-large {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+/* Tablet adjustments */
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .hero .title.is-1 {
+    font-size: 2.5rem !important;
+  }
+  
+  .hero .subtitle.is-3 {
+    font-size: 1.5rem !important;
+  }
+}

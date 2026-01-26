@@ -38,7 +38,7 @@ const TeamPage = () => {
 
           <div className="columns is-multiline">
             {teamMembers.map((member, index) => (
-              <div key={index} className="column is-4">
+              <div key={index} className="column is-4-desktop is-12-mobile">
                 <div className="card">
                   <div className="card-content has-text-centered">
                     <div className="mb-4">
@@ -74,7 +74,7 @@ const TeamPage = () => {
               </p>
               <p className="has-text-centered"><strong className="has-text-dark">Volunteer opportunities include:</strong></p>
               <div className="columns">
-                <div className="column is-6 is-offset-3">
+                <div className="column is-6-desktop is-12-mobile is-offset-3-desktop">
                   <ul>
                     <li>Registration desk and attendee support</li>
                     <li>Speaker liaison and room monitoring</li>

@@ -41,7 +41,7 @@ const CFPPage = () => {
                     failures, and everything you learned along the way.
                   </p>
                   <div className="columns is-multiline">
-                    <div className="column is-6">
+                    <div className="column is-6-desktop is-12-mobile">
                       <ul>
                         <li><strong>Platform Engineering</strong> - Internal platforms, developer experience</li>
                         <li><strong>Kubernetes Operations</strong> - Scaling, troubleshooting, best practices</li>
@@ -69,21 +69,21 @@ const CFPPage = () => {
                 <h3 className="title is-4 has-text-centered">Session Formats</h3>
                 <div className="content">
                   <div className="columns">
-                    <div className="column is-4">
+                    <div className="column is-4-desktop is-12-mobile">
                       <div className="has-text-centered">
                         <p className="title is-5">⚡ Lightning Demos</p>
                         <p className="subtitle is-6">10 minutes</p>
                         <p>Quick technical walkthroughs showcasing concepts or emerging tech</p>
                       </div>
                     </div>
-                    <div className="column is-4">
+                    <div className="column is-4-desktop is-12-mobile">
                       <div className="has-text-centered">
                         <p className="title is-5">💡 Standard Talks</p>
                         <p className="subtitle is-6">25 minutes</p>
                         <p>Case studies, best practices, architectural patterns, and lessons learned</p>
                       </div>
                     </div>
-                    <div className="column is-4">
+                    <div className="column is-4-desktop is-12-mobile">
                       <div className="has-text-centered">
                         <p className="title is-5">🛠️ Workshops</p>
                         <p className="subtitle is-6">50 minutes</p>
@@ -98,17 +98,17 @@ const CFPPage = () => {
                 <h3 className="title is-4 has-text-centered has-text-dark">Why Speak at KCD Istanbul?</h3>
                 <div className="content">
                   <div className="columns">
-                    <div className="column is-4 has-text-centered">
+                    <div className="column is-4-desktop is-12-mobile has-text-centered">
                       <p className="title is-1 has-text-primary">🎟️</p>
                       <p className="mt-3"><strong className="has-text-dark">Free Event Access</strong></p>
                       <p>Complimentary admission for all speakers</p>
                     </div>
-                    <div className="column is-4 has-text-centered">
+                    <div className="column is-4-desktop is-12-mobile has-text-centered">
                       <p className="title is-1 has-text-primary">👥</p>
                       <p className="mt-3"><strong className="has-text-dark">Community Platform</strong></p>
                       <p>Share knowledge in a vendor-neutral, learning-focused environment</p>
                     </div>
-                    <div className="column is-4 has-text-centered">
+                    <div className="column is-4-desktop is-12-mobile has-text-centered">
                       <p className="title is-1 has-text-primary">📹</p>
                       <p className="mt-3"><strong className="has-text-dark">Recorded Sessions</strong></p>
                       <p>Your talk published on YouTube for the community</p>
@@ -120,18 +120,18 @@ const CFPPage = () => {
               <div className="box mb-5">
                 <h3 className="title is-4 has-text-centered">Important Dates</h3>
                 <div className="content">
-                  <div className="columns has-text-centered">
-                    <div className="column is-4">
+                  <div className="columns is-multiline has-text-centered">
+                    <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">CFP Opens</p>
                       <p className="subtitle is-5">December 29, 2025</p>
                       <p className="has-text-grey">9:00 PM EST</p>
                     </div>
-                    <div className="column is-4">
+                    <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">CFP Closes</p>
                       <p className="subtitle is-5">February 16, 2026</p>
                       <p className="has-text-grey">11:59 PM EST</p>
                     </div>
-                    <div className="column is-4">
+                    <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">Event Date</p>
                       <p className="subtitle is-5">May 15, 2026</p>
                       <p className="has-text-grey">Istanbul, Turkey</p>
