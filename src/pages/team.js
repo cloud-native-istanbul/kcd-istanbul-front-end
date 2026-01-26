@@ -3,14 +3,17 @@ import Layout from "../components/layout"
 
 const TeamPage = () => {
   const teamMembers = [
-    { name: "Adriana Villela", role: "Organizer", description: "Principal Developer Advocate | OTel End User SIG Maintainer" },
-    { name: "Andre Marcelo-Tanner", role: "Organizer", description: "SRE" },
-    { name: "Ayrat Khayretdinov", role: "Organizer", description: "CNCF Ambassador" },
-    { name: "Jason Hadi", role: "Organizer", description: "SRE @ ecobee" },
-    { name: "Jason Paolasini", role: "Organizer", description: "" },
-    { name: "John Nixon", role: "Organizer", description: "" },
-    { name: "Marino Wijay", role: "Organizer", description: "Channel Manager" },
-    { name: "Michael Foster", role: "Organizer", description: "CNCF Ambassador / Kube Security Junkie / Red Hatter" },
+    { name: "Akin Ozer", role: "Organizer", description: "DevOps Manager @ Hepapi" },
+    { name: "Alp Kahvecioglu", role: "Organizer", description: "Platform Software Engineer @ Jumpcloud" },
+    { name: "Batuhan Apaydin", role: "Organizer", description: "CNCF Ambassador / Platform Engineer @ Trendyol" },
+    { name: "Ceyda Duzgec", role: "Organizer", description: "" },
+    { name: "Emin Alemdar", role: "Organizer", description: "CNCF Ambassador / Solutions Architect @ Spacelift" },
+    { name: "Halil Ibrahim Bugol", role: "Organizer", description: "CNCF Ambassador" },
+    { name: "Mehmet Sinc", role: "Organizer", description: "" },
+    { name: "Onur Canoglu", role: "Organizer", description: "" },
+    { name: "Onur Kayakiran", role: "Organizer", description: "" },
+    { name: "Veysel Faruk", role: "Organizer", description: "" },
+    { name: "Zehra Sabaz", role: "Organizer", description: "Account Executive @ Kubermatic" },
   ]
 
   return (

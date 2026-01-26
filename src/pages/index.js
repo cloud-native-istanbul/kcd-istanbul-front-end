@@ -275,20 +275,6 @@ const IndexPage = () => {
             Thank you to our sponsors for making KCD Istanbul 2026 possible. Interested in sponsoring? View our prospectus for more details.
           </p>
 
-          {/* Diamond/Committee Partner */}
-          <div className="mb-6">
-            <h3 className="title is-4 has-text-centered mb-4">Diamond / Committee Partner</h3>
-            <div className="columns is-centered">
-              <div className="column is-3 has-text-centered">
-                <a href="https://www.rbc.com" target="_blank" rel="noopener noreferrer" className="sponsor-logo-link">
-                  <div className="box" style={{ padding: '2rem', backgroundColor: 'white', minHeight: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <img src="/sponsors/RBC-logo.png" alt="RBC - Diamond/Committee Partner Sponsor" style={{ maxWidth: '200px', width: '100%', height: 'auto' }} />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
           {/* CTA Button */}
           <div className="has-text-centered mt-6">
             <a href="/sponsors" className="button is-primary is-large">
