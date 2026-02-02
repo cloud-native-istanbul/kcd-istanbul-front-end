@@ -536,8 +536,3 @@ This project is part of the Kubernetes Community Days program, supported by the 
 ---
 
 **Ready to make KCD Istanbul 2026 amazing!** 🚀🎉
-
-TODO:
-
-1. Sponsor prospectus PDF - Rename the file to KCD Istanbul Sponsor Prospectus 2026.pdf in the static folder
-2. Team members - The team page still lists the Toronto organizing team members. Update with your Istanbul team
