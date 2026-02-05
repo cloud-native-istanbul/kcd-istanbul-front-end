@@ -21,7 +21,7 @@ const VenuePage = () => {
               <strong className="has-text-dark">Istanbul, Turkey</strong>
             </p>
             <p className="has-text-centered mb-5">
-              Join us on <strong className="has-text-dark">May 15, 2026</strong> in Istanbul. Venue details will be announced soon!
+              Join us on <strong className="has-text-dark">May 15-16, 2026</strong> in Istanbul. Venue details will be announced soon!
             </p>
           </div>
 
