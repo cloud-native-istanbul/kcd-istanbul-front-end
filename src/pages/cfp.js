@@ -9,7 +9,7 @@ const CFPPage = () => {
           <div className="container has-text-centered">
             <h1 className="title is-1">Call for Speakers</h1>
             <p className="subtitle is-3">Join Istanbul's largest CNCF-supported Kubernetes event</p>
-            <p className="subtitle is-5">May 15, 2026 • Istanbul, Turkey</p>
+            <p className="subtitle is-5">May 15-16, 2026 • Istanbul, Turkey</p>
           </div>
         </div>
       </section>
@@ -133,7 +133,7 @@ const CFPPage = () => {
                     </div>
                     <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">Event Date</p>
-                      <p className="subtitle is-5">May 15, 2026</p>
+                      <p className="subtitle is-5">May 15-16, 2026</p>
                       <p className="has-text-grey">Istanbul, Turkey</p>
                     </div>
                   </div>

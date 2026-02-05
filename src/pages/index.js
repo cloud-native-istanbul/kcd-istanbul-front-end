@@ -21,7 +21,7 @@ const IndexPage = () => {
             </p>
             <div className="box mt-5" style={{ backgroundColor: 'rgba(255,255,255,0.95)' }}>
               <p className="is-size-4 has-text-dark">
-                <strong className="has-text-dark">Date:</strong> May 15, 2026 | <strong className="has-text-dark">Location:</strong> Istanbul, Turkey
+                <strong className="has-text-dark">Date:</strong> May 15-16, 2026 | <strong className="has-text-dark">Location:</strong> Istanbul, Turkey
               </p>
             </div>
             <div className="buttons is-centered is-flex-wrap-wrap mt-5">
