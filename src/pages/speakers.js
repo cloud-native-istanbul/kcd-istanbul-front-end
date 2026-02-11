@@ -1,5 +1,24 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import abbyHeadshot from "../images/speakers/abby.jpeg"
+import annieHeadshot from "../images/speakers/annie.jpg"
+
+const featuredSpeakers = [
+  {
+    name: "Abby Bangser",
+    role: "Founding Principal Engineer at Syntasso",
+    session: "Featured Speaker",
+    initials: "AB",
+    image: abbyHeadshot,
+  },
+  {
+    name: "Annie Talvasto",
+    role: "Sr. Manager - Product Marketing at Upbound",
+    session: "Featured Speaker",
+    initials: "AT",
+    image: annieHeadshot,
+  },
+]
 
 const SpeakersPage = () => {
   return (
@@ -46,15 +65,63 @@ const SpeakersPage = () => {
           </div>
 
           <h2 className="title is-2 mt-6 mb-5 has-text-centered">Featured Speakers</h2>
-          <p className="has-text-centered mb-6">Speaker announcements coming soon! Check back after our Call for Proposals closes.</p>
+          <p className="has-text-centered mb-6">
+            Meet our first featured speakers. One featured slot is still open, submit your CFP to join them.
+          </p>
 
           <div className="columns is-multiline">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="column is-4-desktop is-12-mobile">
+            {featuredSpeakers.map((speaker) => (
+              <div key={speaker.name} className="column is-4-desktop is-12-mobile">
                 <div className="card">
                   <div className="card-content has-text-centered">
                     <div className="mb-4">
-                      <div style={{
+                      {speaker.image ? (
+                        <img
+                          src={speaker.image}
+                          alt={`${speaker.name} headshot`}
+                          style={{
+                            width: "120px",
+                            height: "120px",
+                            borderRadius: "50%",
+                            objectFit: "cover",
+                            margin: "0 auto",
+                            display: "block",
+                          }}
+                        />
+                      ) : (
+                        <div
+                          style={{
+                            width: "120px",
+                            height: "120px",
+                            borderRadius: "50%",
+                            backgroundColor: "#326ce5",
+                            margin: "0 auto",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            fontSize: "2.5rem",
+                            fontWeight: 700,
+                            color: "white",
+                          }}
+                        >
+                          {speaker.initials}
+                        </div>
+                      )}
+                    </div>
+                    <p className="is-size-7 has-text-weight-semibold has-text-primary mb-2">{speaker.session}</p>
+                    <p className="title is-4">{speaker.name}</p>
+                    <p className="subtitle is-6">{speaker.role}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+
+            <div className="column is-4-desktop is-12-mobile">
+              <div className="card">
+                <div className="card-content has-text-centered">
+                  <div className="mb-4">
+                    <div
+                      style={{
                         width: "120px",
                         height: "120px",
                         borderRadius: "50%",
@@ -64,18 +131,21 @@ const SpeakersPage = () => {
                         alignItems: "center",
                         justifyContent: "center",
                         fontSize: "3rem",
-                        color: "white"
-                      }}>
-                        ?
-                      </div>
+                        color: "white",
+                      }}
+                    >
+                      ?
                     </div>
-                    <p className="title is-4">Your Name Here</p>
-                    <p className="subtitle is-6">Speaker</p>
-                    <p>Submit your proposal to be one of our featured speakers!</p>
                   </div>
+                  <p className="is-size-7 has-text-weight-semibold has-text-primary mb-2">Featured Slot Open</p>
+                  <p className="title is-4">Could this be you?</p>
+                  <p className="subtitle is-6">Submit your proposal to be our next featured speaker.</p>
+                  <a href="/cfp" className="button is-primary mt-3">
+                    Submit CFP
+                  </a>
                 </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
