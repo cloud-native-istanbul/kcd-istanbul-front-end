@@ -5,3 +5,9 @@
 [build.environment]
   NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
+
+[[redirects]]
+  from = "/tickets"
+  to = "https://community.cncf.io/events/details/cncf-kcd-istanbul-presents-kcd-istanbul-2026/"
+  status = 302
+  force = true
