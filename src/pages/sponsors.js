@@ -104,13 +104,20 @@ const SponsorsPage = () => {
                   aria-label="Hepapi sponsor website"
                 >
                   <div
-                    className="box has-text-centered has-background-light"
-                    style={{ border: "2px solid #E5E4E2", padding: 0, lineHeight: 0 }}
+                    className="box has-background-light"
+                    style={{
+                      border: "2px solid #f4d2e5",
+                      padding: "1.25rem",
+                      minHeight: "160px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center"
+                    }}
                   >
                     <img
                       src={hepapiLogo}
                       alt="Hepapi logo"
-                      style={{ width: "100%", height: "auto", display: "block" }}
+                      style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
                     />
                   </div>
                 </a>

@@ -31,6 +31,9 @@ const IndexPage = () => {
               <a href="/sponsors" className="button is-outlined is-light is-large">
                 <strong>Become a Sponsor</strong>
               </a>
+              <a href="/cfp" className="button is-outlined is-light is-large">
+                <strong>Submit Your Talk (CFP)</strong>
+              </a>
             </div>
             <p className="has-text-white has-text-weight-semibold mt-4">
               Early Bird tickets available until 15 March 2026.

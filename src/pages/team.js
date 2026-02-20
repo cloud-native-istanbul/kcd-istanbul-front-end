@@ -1,19 +1,30 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import akinPhoto from "../images/organizers/akin.png"
+import alpPhoto from "../images/organizers/alp.png"
+import batuhanPhoto from "../images/organizers/batuhan.png"
+import ceydaPhoto from "../images/organizers/ceyda.png"
+import eminPhoto from "../images/organizers/emin.png"
+import halilPhoto from "../images/organizers/halil.png"
+import mehmetPhoto from "../images/organizers/mehmet.png"
+import onurCanogluPhoto from "../images/organizers/onur-canoglu.png"
+import onurKayakiranPhoto from "../images/organizers/onur-kayakiran.png"
+import veyselPhoto from "../images/organizers/veysel.png"
+import zehraPhoto from "../images/organizers/zehra.png"
 
 const TeamPage = () => {
   const teamMembers = [
-    { name: "Akin Ozer", role: "Organizer", description: "DevOps Manager @ Hepapi" },
-    { name: "Alp Kahvecioglu", role: "Organizer", description: "Platform Software Engineer @ Jumpcloud" },
-    { name: "Batuhan Apaydin", role: "Organizer", description: "CNCF Ambassador / Platform Engineer @ Trendyol" },
-    { name: "Ceyda Duzgec", role: "Organizer", description: "Solutions Architect @ Coca-Cola Icecek" },
-    { name: "Emin Alemdar", role: "Organizer", description: "CNCF Ambassador / Solutions Architect @ Spacelift" },
-    { name: "Halil Ibrahim Bugol", role: "Organizer", description: "CNCF Ambassador / Co-Founder @ Thyris.AI" },
-    { name: "Mehmet Sinc", role: "Organizer", description: "Founder @ Takimca" },
-    { name: "Onur Canoglu", role: "Organizer", description: "DevOps Engineer @ Tatilbudur" },
-    { name: "Onur Kayakiran", role: "Organizer", description: "" },
-    { name: "Veysel Faruk", role: "Organizer", description: "" },
-    { name: "Zehra Sabaz", role: "Organizer", description: "Account Executive @ Kubermatic" },
+    { name: "Akin Ozer", role: "Organizer", description: "DevOps Manager @ Hepapi", image: akinPhoto },
+    { name: "Alp Kahvecioglu", role: "Organizer", description: "Platform Software Engineer @ Jumpcloud", image: alpPhoto },
+    { name: "Batuhan Apaydin", role: "Organizer", description: "CNCF Ambassador / Platform Engineer @ Trendyol", image: batuhanPhoto },
+    { name: "Ceyda Duzgec", role: "Organizer", description: "Solutions Architect @ Coca-Cola Icecek", image: ceydaPhoto },
+    { name: "Emin Alemdar", role: "Organizer", description: "CNCF Ambassador / Solutions Architect @ Spacelift", image: eminPhoto },
+    { name: "Halil Ibrahim Bugol", role: "Organizer", description: "CNCF Ambassador / Co-Founder @ Thyris.AI", image: halilPhoto },
+    { name: "Mehmet Sinc", role: "Organizer", description: "Founder @ Takimca", image: mehmetPhoto },
+    { name: "Onur Canoglu", role: "Organizer", description: "DevOps Engineer @ Tatilbudur", image: onurCanogluPhoto },
+    { name: "Onur Kayakiran", role: "Organizer", description: "", image: onurKayakiranPhoto },
+    { name: "Veysel Faruk", role: "Organizer", description: "", image: veyselPhoto },
+    { name: "Zehra Sabaz", role: "Organizer", description: "Account Executive @ Kubermatic", image: zehraPhoto },
   ]
 
   return (
@@ -37,25 +48,42 @@ const TeamPage = () => {
           <h2 className="title is-2 mb-5 has-text-centered">Organizing Team</h2>
 
           <div className="columns is-multiline">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="column is-4-desktop is-12-mobile">
+            {teamMembers.map((member) => (
+              <div key={member.name} className="column is-4-desktop is-12-mobile">
                 <div className="card">
                   <div className="card-content has-text-centered">
                     <div className="mb-4">
-                      <div style={{
-                        width: "120px",
-                        height: "120px",
-                        borderRadius: "50%",
-                        backgroundColor: "#326ce5",
-                        margin: "0 auto",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontSize: "3rem",
-                        color: "white"
-                      }}>
-                        👤
-                      </div>
+                      {member.image ? (
+                        <img
+                          src={member.image}
+                          alt={`${member.name} headshot`}
+                          style={{
+                            width: "120px",
+                            height: "120px",
+                            borderRadius: "50%",
+                            objectFit: "cover",
+                            margin: "0 auto",
+                            display: "block",
+                          }}
+                        />
+                      ) : (
+                        <div
+                          style={{
+                            width: "120px",
+                            height: "120px",
+                            borderRadius: "50%",
+                            backgroundColor: "#326ce5",
+                            margin: "0 auto",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            fontSize: "3rem",
+                            color: "white",
+                          }}
+                        >
+                          👤
+                        </div>
+                      )}
                     </div>
                     <p className="title is-4">{member.name}</p>
                     <p className="subtitle is-6">{member.role}</p>
