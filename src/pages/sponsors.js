@@ -1,5 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import hepapiLogo from "../images/sponsors/hepapilogo.png"
+import cncfLogo from "../images/sponsors/cncf.png"
+import cloudTurkeyLogo from "../images/sponsors/cloud-turkey.png"
 
 const SponsorsPage = () => {
   return (
@@ -70,23 +73,6 @@ const SponsorsPage = () => {
 
           <h2 className="title is-2 mt-6 mb-5 has-text-centered">Sponsorship Tiers</h2>
 
-          <div className="box mb-5" style={{ borderLeft: "6px solid #B9F2FF" }}>
-            <div className="columns is-multiline">
-              <div className="column is-8-desktop is-12-mobile">
-                <h3 className="title is-3" style={{ color: "#326ce5" }}>💎 Diamond / Committee Partner</h3>
-                <p className="mb-3">
-                  Our premier partner supporting KCD Istanbul 2026. Diamond sponsors demonstrate exceptional leadership and commitment to the cloud native community.
-                </p>
-                <p className="mb-3"><strong>1 exclusive spot (filled)</strong></p>
-              </div>
-              <div className="column is-4-desktop is-12-mobile">
-                <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
-                  <p className="has-text-grey is-size-5">Your Logo Here</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className="box mb-5" style={{ borderLeft: "6px solid #E5E4E2" }}>
             <div className="columns is-multiline">
               <div className="column is-8-desktop is-12-mobile">
@@ -94,14 +80,14 @@ const SponsorsPage = () => {
                 <p className="mb-3">
                   Platinum sponsors have the biggest impact on the conference. They represent companies for which Cloud Native approach is central in the way they implement their activity.
                 </p>
-                <p className="mb-3"><strong>6 available spots</strong></p>
+                <p className="mb-3"><strong>6 spots total (1 spot filled)</strong></p>
                 <div className="content">
                   <p className="has-text-weight-semibold">What's Included:</p>
                   <ul>
                     <li>Extra Large booth</li>
                     <li>6 tickets</li>
                     <li>Keynote mention</li>
-                    <li>3-minute sponsored Keynote</li>
+                    <li>30-minute sponsored Keynote</li>
                     <li>Quote in KCD promotions and social channels</li>
                     <li>30% Discount code for guests (10 tickets)</li>
                     <li>Branding in all swag and marketing material</li>
@@ -110,10 +96,31 @@ const SponsorsPage = () => {
                 </div>
               </div>
               <div className="column is-4-desktop is-12-mobile">
-                <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
-                  <p className="has-text-grey is-size-5">Your Logo Here</p>
-                  <p className="has-text-grey is-size-7 mt-2">(6 spots available)</p>
-                </div>
+                <a
+                  href="https://hepapi.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="sponsor-logo-link"
+                  aria-label="Hepapi sponsor website"
+                >
+                  <div
+                    className="box has-background-light"
+                    style={{
+                      border: "2px solid #f4d2e5",
+                      padding: "1.25rem",
+                      minHeight: "160px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center"
+                    }}
+                  >
+                    <img
+                      src={hepapiLogo}
+                      alt="Hepapi logo"
+                      style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                    />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -191,9 +198,58 @@ const SponsorsPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="column is-4-desktop is-12-multiline">
-                <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
-                  <p className="has-text-grey is-size-5">Your Logo Here</p>
+              <div className="column is-4-desktop is-12-mobile">
+                <div className="is-flex is-flex-direction-column" style={{ gap: "1rem" }}>
+                  <a
+                    href="https://www.cncf.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="CNCF website"
+                  >
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={cncfLogo}
+                        alt="CNCF logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="https://aws.cloudturkey.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="AWS Cloud Turkey website"
+                  >
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={cloudTurkeyLogo}
+                        alt="AWS Cloud Turkey logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

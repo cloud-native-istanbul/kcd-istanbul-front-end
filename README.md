@@ -14,7 +14,7 @@ npm run develop
 # Build for production
 npm run build
 
-# Serve production build locally
+# Serve production build locally![img.png](img.png)
 npm run serve
 ```
 

@@ -25,13 +25,19 @@ const IndexPage = () => {
               </p>
             </div>
             <div className="buttons is-centered is-flex-wrap-wrap mt-5">
-              <a href="#register" className="button is-light is-large">
-                <strong>Register Now (Coming Soon!)</strong>
+              <a href="/tickets" className="button is-light is-large">
+                <strong>Register Now</strong>
               </a>
               <a href="/sponsors" className="button is-outlined is-light is-large">
                 <strong>Become a Sponsor</strong>
               </a>
+              <a href="/cfp" className="button is-outlined is-light is-large">
+                <strong>Submit Your Talk (CFP)</strong>
+              </a>
             </div>
+            <p className="has-text-white has-text-weight-semibold mt-4">
+              Early Bird tickets available until 15 March 2026.
+            </p>
           </div>
         </div>
       </section>
@@ -294,11 +300,14 @@ const IndexPage = () => {
                 <p className="subtitle is-5">
                   Be part of Istanbul's premier cloud native community event. Register today to secure your spot!
                 </p>
+                <p className="subtitle is-6 has-text-dark has-text-weight-semibold">
+                  Early Bird tickets available until 15 March 2026.
+                </p>
               </div>
               <div className="column is-4-desktop is-12-mobile has-text-centered">
-                <p className="button is-primary is-large" role="status" aria-live="polite">
-                  <strong>Register Now (Coming Soon!)</strong>
-                </p>
+                <a href="/tickets" className="button is-primary is-large">
+                  <strong>Register Now</strong>
+                </a>
               </div>
             </div>
           </div>

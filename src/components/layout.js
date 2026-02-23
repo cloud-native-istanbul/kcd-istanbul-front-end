@@ -62,8 +62,8 @@ const Layout = ({ children }) => {
               </Link>
               <div className="navbar-item">
                 <div className="buttons">
-                  <a href="#register" className="button is-light">
-                    <strong>Register (Coming Soon!)</strong>
+                  <a href="/tickets" className="button is-light">
+                    <strong>Register Now</strong>
                   </a>
                 </div>
               </div>

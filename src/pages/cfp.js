@@ -123,13 +123,13 @@ const CFPPage = () => {
                   <div className="columns is-multiline has-text-centered">
                     <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">CFP Opens</p>
-                      <p className="subtitle is-5">December 29, 2025</p>
-                      <p className="has-text-grey">9:00 PM EST</p>
+                      <p className="subtitle is-5">23 January 2026</p>
+                      <p className="has-text-grey">9:00 PM UTC+03:00</p>
                     </div>
                     <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">CFP Closes</p>
-                      <p className="subtitle is-5">February 16, 2026</p>
-                      <p className="has-text-grey">11:59 PM EST</p>
+                      <p className="subtitle is-5">1 March 2026</p>
+                      <p className="has-text-grey">11:59 PM UTC+03:00</p>
                     </div>
                     <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">Event Date</p>
@@ -138,7 +138,7 @@ const CFPPage = () => {
                     </div>
                   </div>
                   <div className="notification is-success is-light has-text-centered mt-4">
-                    <strong>CFP is now open!</strong> Submit your proposal before February 16, 2026
+                    <strong>CFP is now open!</strong> Submit your proposal before 1 March 2026
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@ const CFPPage = () => {
                     <strong>Submit Your Proposal Now</strong>
                   </a>
                   <p className="mt-4 has-text-grey">
-                    <small>Submissions managed through Sessionize • Closes February 16, 2026</small>
+                    <small>Submissions managed through Sessionize • Closes 1 March 2026</small>
                   </p>
                 </div>
               </div>
