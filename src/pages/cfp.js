@@ -123,13 +123,13 @@ const CFPPage = () => {
                   <div className="columns is-multiline has-text-centered">
                     <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">CFP Opens</p>
-                      <p className="subtitle is-5">26 January 2026</p>
-                      <p className="has-text-grey">9:00 PM EST</p>
+                      <p className="subtitle is-5">23 January 2026</p>
+                      <p className="has-text-grey">9:00 PM UTC+03:00</p>
                     </div>
                     <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">CFP Closes</p>
                       <p className="subtitle is-5">1 March 2026</p>
-                      <p className="has-text-grey">11:59 PM EST</p>
+                      <p className="has-text-grey">11:59 PM UTC+03:00</p>
                     </div>
                     <div className="column is-4-desktop is-12-mobile">
                       <p className="title is-6">Event Date</p>

@@ -87,7 +87,7 @@ const SponsorsPage = () => {
                     <li>Extra Large booth</li>
                     <li>6 tickets</li>
                     <li>Keynote mention</li>
-                    <li>3-minute sponsored Keynote</li>
+                    <li>30-minute sponsored Keynote</li>
                     <li>Quote in KCD promotions and social channels</li>
                     <li>30% Discount code for guests (10 tickets)</li>
                     <li>Branding in all swag and marketing material</li>

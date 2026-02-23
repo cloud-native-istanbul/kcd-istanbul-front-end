@@ -16,14 +16,14 @@ const TeamPage = () => {
   const teamMembers = [
     { name: "Akin Ozer", role: "Organizer", description: "DevOps Manager @ Hepapi", image: akinPhoto },
     { name: "Alp Kahvecioglu", role: "Organizer", description: "Platform Software Engineer @ Jumpcloud", image: alpPhoto },
-    { name: "Batuhan Apaydin", role: "Organizer", description: "CNCF Ambassador / Platform Engineer @ Trendyol", image: batuhanPhoto },
+    { name: "Batuhan Apaydin", role: "Organizer", description: "CNCF Ambassador / Software Engineer @ Chainguard", image: batuhanPhoto },
     { name: "Ceyda Duzgec", role: "Organizer", description: "Solutions Architect @ Coca-Cola Icecek", image: ceydaPhoto },
     { name: "Emin Alemdar", role: "Organizer", description: "CNCF Ambassador / Solutions Architect @ Spacelift", image: eminPhoto },
     { name: "Halil Ibrahim Bugol", role: "Organizer", description: "CNCF Ambassador / Co-Founder @ Thyris.AI", image: halilPhoto },
     { name: "Mehmet Sinc", role: "Organizer", description: "Founder @ Takimca", image: mehmetPhoto },
     { name: "Onur Canoglu", role: "Organizer", description: "DevOps Engineer @ Tatilbudur", image: onurCanogluPhoto },
-    { name: "Onur Kayakiran", role: "Organizer", description: "", image: onurKayakiranPhoto },
-    { name: "Veysel Faruk", role: "Organizer", description: "", image: veyselPhoto },
+    { name: "Onur Kayakiran", role: "Organizer", description: "DevOps Engineer @ Intertech", image: onurKayakiranPhoto },
+    { name: "Veysel Faruk", role: "Organizer", description: "CTO @ Hepapi", image: veyselPhoto },
     { name: "Zehra Sabaz", role: "Organizer", description: "Account Executive @ Kubermatic", image: zehraPhoto },
   ]
 
