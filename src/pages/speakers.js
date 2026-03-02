@@ -36,7 +36,7 @@ const SpeakersPage = () => {
         <div className="container">
           <div className="box has-background-info-light">
             <h2 className="title is-3 has-text-centered has-text-dark">Call for Proposals</h2>
-            <p className="subtitle has-text-centered">We're looking for speakers!</p>
+            <p className="subtitle has-text-centered has-text-grey">CFP is now closed. Thank you to everyone who submitted!</p>
             <div className="content">
               <p className="has-text-centered">
                 Whether you're a Kubernetes expert, a cloud native practitioner, or have an interesting story about
@@ -56,17 +56,12 @@ const SpeakersPage = () => {
                   </ul>
                 </div>
               </div>
-              <div className="has-text-centered mt-5">
-                <a href="/cfp" className="button is-primary is-large">
-                  <strong>Submit Your Proposal</strong>
-                </a>
-              </div>
             </div>
           </div>
 
           <h2 className="title is-2 mt-6 mb-5 has-text-centered">Featured Speakers</h2>
           <p className="has-text-centered mb-6">
-            Meet our first featured speakers. One featured slot is still open, submit your CFP to join them.
+            Meet our featured speakers. CFP is now closed — stay tuned for the full speaker lineup!
           </p>
 
           <div className="columns is-multiline">
@@ -137,12 +132,9 @@ const SpeakersPage = () => {
                       ?
                     </div>
                   </div>
-                  <p className="is-size-7 has-text-weight-semibold has-text-primary mb-2">Featured Slot Open</p>
-                  <p className="title is-4">Could this be you?</p>
-                  <p className="subtitle is-6">Submit your proposal to be our next featured speaker.</p>
-                  <a href="/cfp" className="button is-primary mt-3">
-                    Submit CFP
-                  </a>
+                  <p className="is-size-7 has-text-weight-semibold has-text-grey mb-2">Speaker Announcements Coming Soon</p>
+                  <p className="title is-4 has-text-grey">More Speakers TBA</p>
+                  <p className="subtitle is-6">CFP is closed. Speaker selection is underway.</p>
                 </div>
               </div>
             </div>

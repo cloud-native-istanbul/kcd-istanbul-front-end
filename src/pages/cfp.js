@@ -137,29 +137,28 @@ const CFPPage = () => {
                       <p className="has-text-grey">Istanbul, Turkey</p>
                     </div>
                   </div>
-                  <div className="notification is-success is-light has-text-centered mt-4">
-                    <strong>CFP is now open!</strong> Submit your proposal before 1 March 2026
+                  <div className="notification is-warning is-light has-text-centered mt-4">
+                    <strong>CFP is now closed.</strong> Thank you to everyone who submitted a proposal!
                   </div>
                 </div>
               </div>
 
               {/* Sessionize CFP Form Link */}
-              <div className="box has-background-primary-light">
-                <h2 className="title is-2 has-text-centered mb-4 has-text-dark">Ready to Share Your Story?</h2>
+              <div className="box has-background-light">
+                <h2 className="title is-2 has-text-centered mb-4 has-text-grey-dark">Submissions Are Now Closed</h2>
                 <div className="content has-text-centered">
-                  <p className="is-size-5 mb-5">
-                    Join 25+ speakers in sharing practical, real-world cloud native experiences with Istanbul's community.
+                  <p className="is-size-5 mb-5 has-text-grey">
+                    Thank you to everyone who submitted a proposal. We received many great submissions and will be in touch soon.
                   </p>
-                  <a
-                    href="https://sessionize.com/kcd-istanbul-2026"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="button is-primary is-large"
+                  <button
+                    className="button is-light is-large"
+                    disabled
+                    style={{ cursor: 'not-allowed', opacity: 0.6 }}
                   >
-                    <strong>Submit Your Proposal Now</strong>
-                  </a>
+                    <strong>Submissions Now Closed</strong>
+                  </button>
                   <p className="mt-4 has-text-grey">
-                    <small>Submissions managed through Sessionize • Closes 1 March 2026</small>
+                    <small>Submissions managed through Sessionize • Closed on 1 March 2026</small>
                   </p>
                 </div>
               </div>
