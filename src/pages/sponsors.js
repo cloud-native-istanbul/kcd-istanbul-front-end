@@ -1,8 +1,11 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import hepapiLogo from "../images/sponsors/hepapilogo.png"
+import cylanaLogoDark from "../images/sponsors/cylanalogodark.png"
+import cylanaLogoLight from "../images/sponsors/cylanalogolight.png"
 import cncfLogo from "../images/sponsors/cncf.png"
 import cloudTurkeyLogo from "../images/sponsors/cloud-turkey.png"
+import kubeEventsLogo from "../images/sponsors/kube-events-logo-light-bg.png"
 
 const SponsorsPage = () => {
   return (
@@ -146,10 +149,31 @@ const SponsorsPage = () => {
                 </div>
               </div>
               <div className="column is-4-desktop is-12-mobile">
-                <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
-                  <p className="has-text-grey is-size-5">Your Logo Here</p>
-                  <p className="has-text-grey is-size-7 mt-2">(10 spots available)</p>
-                </div>
+                <a
+                  href="https://cylana.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="sponsor-logo-link"
+                  aria-label="Cylana sponsor website"
+                >
+                  <div
+                    className="box has-background-light"
+                    style={{
+                      border: "2px solid #f4d2e5",
+                      padding: "1.25rem",
+                      minHeight: "160px",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center"
+                    }}
+                  >
+                    <img
+                      src={cylanaLogoDark}
+                      alt="Cylana logo"
+                      style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                    />
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -192,7 +216,6 @@ const SponsorsPage = () => {
                 <div className="content">
                   <p className="has-text-weight-semibold">What's Included:</p>
                   <ul>
-                    <li>1 Ticket</li>
                     <li>Presence in the community zone: a special place at the venue</li>
                     <li>Logo on website</li>
                   </ul>
@@ -246,6 +269,31 @@ const SponsorsPage = () => {
                       <img
                         src={cloudTurkeyLogo}
                         alt="AWS Cloud Turkey logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="https://kube.events/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="Kube Events website"
+                  >
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={kubeEventsLogo}
+                        alt="Kube Events logo"
                         style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
                       />
                     </div>
