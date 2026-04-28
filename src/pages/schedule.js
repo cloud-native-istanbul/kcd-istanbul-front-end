@@ -22,7 +22,7 @@ const SchedulePage = () => {
         <div className="hero-body">
           <div className="container">
             <h1 className="title is-1">Event Schedule</h1>
-            <p className="subtitle is-3">May 15-16, 2026 | Istanbul, Turkey</p>
+            <p className="subtitle is-3">July 10-11, 2026 | Istanbul, Turkey</p>
           </div>
         </div>
       </section>

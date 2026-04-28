@@ -1,6 +1,6 @@
 # KCD Istanbul 2026 Website
 
-Official website for Kubernetes Community Days Istanbul 2026 - May 15th, 2026 at TBA.
+Official website for Kubernetes Community Days Istanbul 2026 - July 10-11, 2026 at TBA.
 
 ## 🚀 Quick Start
 
@@ -71,7 +71,7 @@ Edit these files to update event information:
 **Homepage** (`src/pages/index.js`):
 ```javascript
 // Line ~22
-<strong>Date:</strong> May 15th, 2026 | <strong>Location:</strong> TBA, Istanbul
+<strong>Date:</strong> July 10-11, 2026 | <strong>Location:</strong> TBA, Istanbul
 ```
 
 **All Page Headers**: Update the hero sections in each page file.

@@ -21,7 +21,7 @@ const IndexPage = () => {
             </p>
             <div className="box mt-5" style={{ backgroundColor: 'rgba(255,255,255,0.95)' }}>
               <p className="is-size-4 has-text-dark">
-                <strong className="has-text-dark">Date:</strong> May 15-16, 2026 | <strong className="has-text-dark">Location:</strong> Istanbul, Turkey
+                <strong className="has-text-dark">Date:</strong> July 10-11, 2026 | <strong className="has-text-dark">Location:</strong> Istanbul, Turkey
               </p>
             </div>
             <div className="buttons is-centered is-flex-wrap-wrap mt-5">
@@ -38,9 +38,6 @@ const IndexPage = () => {
                 <strong>CFP Now Closed</strong>
               </span>
             </div>
-            <p className="has-text-white has-text-weight-semibold mt-4">
-              Early Bird tickets available until 15 March 2026.
-            </p>
           </div>
         </div>
       </section>
@@ -302,9 +299,6 @@ const IndexPage = () => {
                 <h3 className="title has-text-dark is-3">Ready to Join Us?</h3>
                 <p className="subtitle is-5">
                   Be part of Istanbul's premier cloud native community event. Register today to secure your spot!
-                </p>
-                <p className="subtitle is-6 has-text-dark has-text-weight-semibold">
-                  Early Bird tickets available until 15 March 2026.
                 </p>
               </div>
               <div className="column is-4-desktop is-12-mobile has-text-centered">
