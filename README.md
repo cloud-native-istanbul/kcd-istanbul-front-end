@@ -1,6 +1,6 @@
 # KCD Istanbul 2026 Website
 
-Official website for Kubernetes Community Days Istanbul 2026 - July 10-11, 2026 at TBA.
+Official website for Kubernetes Community Days Istanbul 2026 - July 10-11, 2026 at Istanbul Bilgi University, Santralistanbul Campus.
 
 ## 🚀 Quick Start
 
@@ -71,7 +71,7 @@ Edit these files to update event information:
 **Homepage** (`src/pages/index.js`):
 ```javascript
 // Line ~22
-<strong>Date:</strong> July 10-11, 2026 | <strong>Location:</strong> TBA, Istanbul
+<strong>Date:</strong> July 10-11, 2026 | <strong>Location:</strong> Istanbul Bilgi University, Santralistanbul Campus
 ```
 
 **All Page Headers**: Update the hero sections in each page file.
@@ -115,14 +115,11 @@ Replace placeholder emails throughout the site:
 
 **File:** `src/pages/venue.js`
 
-Current venue: **TBA: Istanbul Region Board of Trade**
+Current venue: **Istanbul Bilgi University, Santralistanbul Campus**
+(Eski Silahtarağa Elektrik Santralı, Kazım Karabekir Cad. No: 2/13, 34060 Eyüpsultan, İstanbul)
 
-Update with:
-- Full address
-- Parking information
-- Transit directions
-- Accessibility details
-- Venue contact info
+The venue page includes the address, an embedded Google Map, and transit directions
+(T5 tram "Üniversite" stop, M7 metro, Marmaray, bus). Update there if any details change.
 
 ---
 

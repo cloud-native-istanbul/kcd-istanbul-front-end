@@ -61,7 +61,7 @@ const SpeakersPage = () => {
 
           <h2 className="title is-2 mt-6 mb-5 has-text-centered">Featured Speakers</h2>
           <p className="has-text-centered mb-6">
-            Meet our featured speakers. CFP is now closed — stay tuned for the full speaker lineup!
+            Meet our featured speakers. CFP is now closed. Stay tuned for the full speaker lineup!
           </p>
 
           <div className="columns is-multiline">

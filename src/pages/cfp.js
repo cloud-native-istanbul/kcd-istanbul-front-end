@@ -37,7 +37,7 @@ const CFPPage = () => {
                 <h3 className="title is-4 has-text-centered">What We're Looking For</h3>
                 <div className="content">
                   <p className="has-text-centered mb-4">
-                    We seek <strong>practical, real lessons — not product pitches</strong>. Share your successes,
+                    We seek <strong>practical, real lessons, not product pitches</strong>. Share your successes,
                     failures, and everything you learned along the way.
                   </p>
                   <div className="columns is-multiline">
@@ -171,7 +171,7 @@ const CFPPage = () => {
                 </p>
                 <p className="has-text-centered mt-3 has-text-grey">
                   <small>
-                    Remember: We're looking for clear learning outcomes, technical depth, and real experiences —
+                    Remember: We're looking for clear learning outcomes, technical depth, and real experiences,
                     both successes and failures.
                   </small>
                 </p>
