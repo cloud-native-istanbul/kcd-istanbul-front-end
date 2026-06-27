@@ -1,8 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import hepapiLogo from "../images/sponsors/hepapilogo.png"
-import cylanaLogoDark from "../images/sponsors/cylanalogodark.png"
-import cylanaLogoLight from "../images/sponsors/cylanalogolight.png"
+import broadcomLogo from "../images/sponsors/broadcom.svg"
 import cncfLogo from "../images/sponsors/cncf.png"
 import cloudTurkeyLogo from "../images/sponsors/cloud-turkey.png"
 import kubeEventsLogo from "../images/sponsors/kube-events-logo-light-bg.png"
@@ -83,7 +82,7 @@ const SponsorsPage = () => {
                 <p className="mb-3">
                   Platinum sponsors have the biggest impact on the conference. They represent companies for which Cloud Native approach is central in the way they implement their activity.
                 </p>
-                <p className="mb-3"><strong>6 spots total (1 spot filled)</strong></p>
+                <p className="mb-3"><strong>6 spots total (2 spots filled)</strong></p>
                 <div className="content">
                   <p className="has-text-weight-semibold">What's Included:</p>
                   <ul>
@@ -99,31 +98,58 @@ const SponsorsPage = () => {
                 </div>
               </div>
               <div className="column is-4-desktop is-12-mobile">
-                <a
-                  href="https://hepapi.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="sponsor-logo-link"
-                  aria-label="Hepapi sponsor website"
-                >
-                  <div
-                    className="box has-background-light"
-                    style={{
-                      border: "2px solid #f4d2e5",
-                      padding: "1.25rem",
-                      minHeight: "160px",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center"
-                    }}
+                <div className="is-flex is-flex-direction-column" style={{ gap: "1rem" }}>
+                  <a
+                    href="https://hepapi.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="Hepapi sponsor website"
                   >
-                    <img
-                      src={hepapiLogo}
-                      alt="Hepapi logo"
-                      style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
-                    />
-                  </div>
-                </a>
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={hepapiLogo}
+                        alt="Hepapi logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.broadcom.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="VMware by Broadcom sponsor website"
+                  >
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={broadcomLogo}
+                        alt="VMware by Broadcom logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -149,31 +175,10 @@ const SponsorsPage = () => {
                 </div>
               </div>
               <div className="column is-4-desktop is-12-mobile">
-                <a
-                  href="https://cylana.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="sponsor-logo-link"
-                  aria-label="Cylana sponsor website"
-                >
-                  <div
-                    className="box has-background-light"
-                    style={{
-                      border: "2px solid #f4d2e5",
-                      padding: "1.25rem",
-                      minHeight: "160px",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center"
-                    }}
-                  >
-                    <img
-                      src={cylanaLogoDark}
-                      alt="Cylana logo"
-                      style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
-                    />
-                  </div>
-                </a>
+                <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
+                  <p className="has-text-grey is-size-5">Your Logo Here</p>
+                  <p className="has-text-grey is-size-7 mt-2">(10 spots available)</p>
+                </div>
               </div>
             </div>
           </div>
