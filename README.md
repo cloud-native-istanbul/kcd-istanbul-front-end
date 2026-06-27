@@ -226,6 +226,46 @@ const SpeakersPage = () => {
 
 ---
 
+### Sessionize: Sessions / Schedule Page
+
+The **Sessions** page (`src/pages/sessions.js`) pulls the accepted talks
+directly from Sessionize, groups them by room into tabs, and renders them with
+our own Bulma styling. It is wired up the same way as the upstream KCD Toronto
+site.
+
+**1. Get the Embeds & API endpoint ID (not the numeric event ID)**
+
+The numeric ID in your Sessionize dashboard URL (e.g. `22517`) is the *event*
+ID and will **not** work with the API. You need the short alphanumeric **Embeds
+& API endpoint ID** (looks like `9ddjd9rc`):
+
+1. In Sessionize, open your event.
+2. Go to **Embeds & API** (left sidebar).
+3. Create an embed for **All sessions** (or enable the API).
+4. Copy the generated endpoint ID from the embed URL:
+   `https://sessionize.com/api/v2/<THIS_ID>/view/Sessions`
+
+**2. Set the ID in the page**
+
+Edit `src/pages/sessions.js` and update the constant near the top:
+
+```javascript
+const SESSIONIZE_ID = "9ddjd9rc" // your Embeds & API endpoint ID
+```
+
+**How it works:** the page fetches `…/view/Sessions?under=True` (which returns
+ready-made HTML), parses the markup in the browser to extract each session's
+title, room, time, speakers, description, and tags (level / session format),
+then renders Bulma cards grouped by room. Sessions without a room fall under a
+**General / Service** tab. Until the ID points at a live, published agenda the
+page shows a "Sessions will be announced soon!" notice.
+
+> The legacy `src/pages/schedule.js` page is a static, hand-written sample
+> agenda. Once the Sessionize agenda is live, point attendees at **Sessions**
+> (or replace the schedule page with the same fetch).
+
+---
+
 ### Ti.to / Eventbrite (Registration/Ticketing)
 
 **Option 1: Ti.to (Recommended for tech events)**
