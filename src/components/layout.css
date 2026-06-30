@@ -5,6 +5,22 @@
   --color-secondary: #00d1b2;
   --color-dark: #363636;
   --color-light: #f5f5f5;
+
+  /* Theme Bulma's "primary" to Kubernetes blue (#326ce5 ≈ hsl(221, 78%, 55%))
+     so every is-primary / has-text-primary utility — buttons, tags, progress
+     bars, schedule time headers — matches the navbar and hero instead of
+     Bulma's default turquoise. Mirrors the upstream KCD Toronto theme. */
+  --bulma-primary-h: 221deg;
+  --bulma-primary-s: 78%;
+  --bulma-primary-l: 55%;
+  /* Force white text on solid primary backgrounds (buttons, tags). Bulma would
+     otherwise auto-pick dark text for this lightness, hurting contrast. */
+  --bulma-primary-invert-l: 100%;
+}
+
+/* Keep the whole site in light mode (form controls, scrollbars). */
+html {
+  color-scheme: light;
 }
 
 * {

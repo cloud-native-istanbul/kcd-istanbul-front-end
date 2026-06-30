@@ -226,12 +226,12 @@ const SpeakersPage = () => {
 
 ---
 
-### Sessionize: Sessions / Schedule Page
+### Sessionize: Sessions & Schedule Pages
 
-The **Sessions** page (`src/pages/sessions.js`) pulls the accepted talks
-directly from Sessionize, groups them by room into tabs, and renders them with
-our own Bulma styling. It is wired up the same way as the upstream KCD Toronto
-site.
+Both the **Sessions** page (`src/pages/sessions.js`) and the **Schedule** page
+(`src/pages/schedule.js`) pull live data directly from Sessionize and render it
+with our own Bulma styling. They share configuration and parsing helpers in
+`src/utils/sessionize.js`. This mirrors the upstream KCD Toronto site.
 
 **1. Get the Embeds & API endpoint ID (not the numeric event ID)**
 
@@ -245,24 +245,34 @@ ID and will **not** work with the API. You need the short alphanumeric **Embeds
 4. Copy the generated endpoint ID from the embed URL:
    `https://sessionize.com/api/v2/<THIS_ID>/view/Sessions`
 
-**2. Set the ID in the page**
+**2. Set the ID once**
 
-Edit `src/pages/sessions.js` and update the constant near the top:
+Edit `src/utils/sessionize.js` and update the single constant near the top:
 
 ```javascript
-const SESSIONIZE_ID = "9ddjd9rc" // your Embeds & API endpoint ID
+export const SESSIONIZE_ID = "9ddjd9rc" // your Embeds & API endpoint ID
 ```
 
-**How it works:** the page fetches `…/view/Sessions?under=True` (which returns
-ready-made HTML), parses the markup in the browser to extract each session's
-title, room, time, speakers, description, and tags (level / session format),
-then renders Bulma cards grouped by room. Sessions without a room fall under a
-**General / Service** tab. Until the ID points at a live, published agenda the
-page shows a "Sessions will be announced soon!" notice.
+Both pages read from this one value.
 
-> The legacy `src/pages/schedule.js` page is a static, hand-written sample
-> agenda. Once the Sessionize agenda is live, point attendees at **Sessions**
-> (or replace the schedule page with the same fetch).
+**How it works:**
+
+- **Sessions page** fetches `…/view/Sessions` and `…/view/Speakers`, then renders
+  cards grouped into **July 10 / July 11** day tabs (and by room within each
+  day), enriched with speaker headshots, taglines, and time/room tags.
+- **Schedule page** fetches `…/view/GridSmart` (the full timetable, which
+  includes service sessions such as breakfast, coffee breaks, and lunch) plus
+  `…/view/Sessions` for descriptions. It groups everything into chronological
+  time slots under day headings, styles breaks distinctly, and lets attendees
+  star talks to build a **My Schedule** view (saved in `localStorage`).
+
+Both embeds return ready-made HTML, which is parsed in the browser. Until the ID
+points at a live, published agenda the pages show a "coming soon" notice.
+
+> **Tags note:** the colored *level* / *session format* tags are driven by
+> Sessionize **categories**. If your event has no categories configured, the tag
+> slots come back empty and no tags render — they appear automatically once you
+> add categories in Sessionize (Event → Categories).
 
 ---
 
