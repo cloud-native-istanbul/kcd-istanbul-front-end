@@ -2,6 +2,9 @@ import * as React from "react"
 import Layout from "../components/layout"
 import hepapiLogo from "../images/sponsors/hepapilogo.png"
 import broadcomLogo from "../images/sponsors/broadcom.svg"
+import keymateLogo from "../images/sponsors/keymate.svg"
+import nutanixLogo from "../images/sponsors/nutanix.png"
+import kubermaticLogo from "../images/sponsors/kubermatic.svg"
 import cncfLogo from "../images/sponsors/cncf.png"
 import cloudTurkeyLogo from "../images/sponsors/cloud-turkey.png"
 import kubeEventsLogo from "../images/sponsors/kube-events-logo-light-bg.png"
@@ -161,7 +164,7 @@ const SponsorsPage = () => {
                 <p className="mb-3">
                   Gold sponsors form the backbone of the conference backers. They represent companies that believe the strongest in the Cloud Native movement and have the financial means and the willingness to support it.
                 </p>
-                <p className="mb-3"><strong>10 available spots</strong></p>
+                <p className="mb-3"><strong>10 spots total (3 spots filled)</strong></p>
                 <div className="content">
                   <p className="has-text-weight-semibold">What's Included:</p>
                   <ul>
@@ -175,9 +178,82 @@ const SponsorsPage = () => {
                 </div>
               </div>
               <div className="column is-4-desktop is-12-mobile">
-                <div className="box has-text-centered has-background-light" style={{ border: "2px dashed #ccc", padding: "3rem" }}>
-                  <p className="has-text-grey is-size-5">Your Logo Here</p>
-                  <p className="has-text-grey is-size-7 mt-2">(10 spots available)</p>
+                <div className="is-flex is-flex-direction-column" style={{ gap: "1rem" }}>
+                  <a
+                    href="https://keymate.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="Keymate sponsor website"
+                  >
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={keymateLogo}
+                        alt="Keymate logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.nutanix.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="Nutanix sponsor website"
+                  >
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={nutanixLogo}
+                        alt="Nutanix logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
+                  <a
+                    href="https://www.kubermatic.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="sponsor-logo-link"
+                    aria-label="Kubermatic sponsor website"
+                  >
+                    <div
+                      className="box has-background-light"
+                      style={{
+                        border: "2px solid #f4d2e5",
+                        padding: "1.25rem",
+                        minHeight: "160px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <img
+                        src={kubermaticLogo}
+                        alt="Kubermatic logo"
+                        style={{ width: "100%", maxHeight: "120px", objectFit: "contain", display: "block" }}
+                      />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
