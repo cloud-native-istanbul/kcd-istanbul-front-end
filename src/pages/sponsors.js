@@ -180,7 +180,7 @@ const SponsorsPage = () => {
               <div className="column is-4-desktop is-12-mobile">
                 <div className="is-flex is-flex-direction-column" style={{ gap: "1rem" }}>
                   <a
-                    href="https://keymate.com"
+                    href="https://keymate.io"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="sponsor-logo-link"
