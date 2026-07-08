@@ -42,7 +42,7 @@ const ScheduleCard = ({ session, isMine, onToggle, half }) => (
               {session.isService && <span>{serviceIcon(session.title)} </span>}
               {session.title}
             </h3>
-            {session.room && (
+            {session.room && !(session.isService && /lunch|breakfast|coffee|break|registration/i.test(session.title)) && (
               <p className="is-size-7 has-text-grey mb-1">
                 <strong>Room:</strong> {session.room}
               </p>
